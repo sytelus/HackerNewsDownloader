@@ -1,0 +1,15 @@
+!TRNS	DATE	ACCNT	NAME	CLASS	AMOUNT	MEMO
+!SPL	DATE	ACCNT	NAME	AMOUNT	MEMO
+!ENDTRNS
+TRNS	"11/22/2011"	"Paypal"	"The Native Choice"	"Shopping Cart Payment Sent"	-30.00	"Shopping CartDeposit for reservation 2NC69101"	
+SPL	"11/22/2011"	"Other Expenses"	"The Native Choice"	30.00
+ENDTRNS
+TRNS	"9/11/2011"	"Paypal"	"Han Zhicai"	"Web Accept Payment Sent"	-19.95	"WinX iPhone Converter Pack"	
+SPL	"9/11/2011"	"Other Expenses"	"Han Zhicai"	19.95
+ENDTRNS
+TRNS	"8/4/2011"	"Paypal"	"Eric Brewster"	"Donation Sent"	-5.00	"Paint.NET Donation"	
+SPL	"8/4/2011"	"Other Expenses"	"Eric Brewster"	5.00
+ENDTRNS
+TRNS	"11/29/2010"	"Paypal"	"Ryan Luthman"	"Payment Sent"	-30.00	"You've got money!"	
+SPL	"11/29/2010"	"Other Expenses"	"Ryan Luthman"	30.00
+ENDTRNS

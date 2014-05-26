@@ -1,0 +1,10 @@
+{
+  "name": "DotNetCommonUtils",
+  "version": "1.0.1",
+  "main": "**/*",
+  "homepage": "https://github.com/sytelus/dotnetcommonutils",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sytelus/dotnetcommonutils.git"
+  }
+}

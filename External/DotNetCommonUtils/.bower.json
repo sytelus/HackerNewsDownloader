@@ -1,0 +1,19 @@
+{
+  "name": "DotNetCommonUtils",
+  "version": "1.0.6",
+  "main": "**/*",
+  "homepage": "https://github.com/sytelus/dotnetcommonutils",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sytelus/dotnetcommonutils.git"
+  },
+  "_release": "1.0.6",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.0.6",
+    "commit": "4711cf9fa7047387d536b73c9a15ca21a4ef9099"
+  },
+  "_source": "git://github.com/sytelus/dotnetcommonutils.git",
+  "_target": "*",
+  "_originalSource": "DotNetCommonUtils"
+}

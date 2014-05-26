@@ -1,0 +1,2849 @@
+{
+	"hits": [{
+		"created_at": "2014-05-24T06:53:11Z",
+		"title": "Apple, Google seek approval for $324.5M wage-fixing settlement",
+		"url": "http://www.cnet.com/news/apple-google-seek-approval-for-324-5-million-wage-fixing-settlement/",
+		"author": "tweakz",
+		"points": 1,
+		"story_text": null,
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400914391,
+		"_tags": ["story",
+		"author_tweakz",
+		"story_7792795"],
+		"objectID": "7792795",
+		"_highlightResult": {
+			"title": {
+				"value": "Apple, Google seek approval for $324.5M wage-fixing settlement",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://www.cnet.com/news/apple-google-seek-approval-for-324-5-million-wage-fixing-settlement/",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "tweakz",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T06:36:27Z",
+		"title": "Campus safety app",
+		"url": "http://news.vcu.edu/article/VCU_Police_adds_mobile_app_to_campus_safety_toolbox",
+		"author": "eman86",
+		"points": 1,
+		"story_text": "VCU Police has brought a powerful new safety tool to campus for the new academic year. The department recently partnered with LiveSafe, a technology startup that has created a mobile app by the same name designed to improve interaction between campus law enforcement agencies and their communities. The app is free to students, faculty, staff and neighbors of VCU and is available for iOS or Android devices.",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400913387,
+		"_tags": ["story",
+		"author_eman86",
+		"story_7792776"],
+		"objectID": "7792776",
+		"_highlightResult": {
+			"title": {
+				"value": "Campus safety app",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://news.vcu.edu/article/VCU_Police_adds_mobile_app_to_campus_safety_toolbox",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "eman86",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "VCU Police has brought a powerful new safety tool to campus for the new academic year. The department recently partnered with LiveSafe, a technology startup that has created a mobile app by the same name designed to improve interaction between campus law enforcement agencies and their communities. The app is free to students, faculty, staff and neighbors of VCU and is available for iOS or Android devices.",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T06:32:42Z",
+		"title": "Preliminary quake map shows fault lines under schools, hotels, homes ",
+		"url": "http://www.latimes.com/local/earthquakes/la-me-adv-fault-map-20140506-story.html",
+		"author": "001sky",
+		"points": 1,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400913162,
+		"_tags": ["story",
+		"author_001sky",
+		"story_7792771"],
+		"objectID": "7792771",
+		"_highlightResult": {
+			"title": {
+				"value": "Preliminary quake map shows fault lines under schools, hotels, homes ",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://www.latimes.com/local/earthquakes/la-me-adv-fault-map-20140506-story.html",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "001sky",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T06:21:24Z",
+		"title": "EBay initially believed user data was safe after cyber attack",
+		"url": "http://www.smh.com.au/it-pro/security-it/ebay-initially-believed-user-data-was-safe-after-cyber-attack-20140524-zrn0q.html",
+		"author": "laurencei",
+		"points": 1,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400912484,
+		"_tags": ["story",
+		"author_laurencei",
+		"story_7792753"],
+		"objectID": "7792753",
+		"_highlightResult": {
+			"title": {
+				"value": "EBay initially believed user data was safe after cyber attack",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://www.smh.com.au/it-pro/security-it/ebay-initially-believed-user-data-was-safe-after-cyber-attack-20140524-zrn0q.html",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "laurencei",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T06:06:37Z",
+		"title": "Contribution is the Key",
+		"url": "http://wexnotes.com/contribution-is-the-key/",
+		"author": "travelhead",
+		"points": 1,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400911597,
+		"_tags": ["story",
+		"author_travelhead",
+		"story_7792731"],
+		"objectID": "7792731",
+		"_highlightResult": {
+			"title": {
+				"value": "Contribution is the Key",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://wexnotes.com/contribution-is-the-key/",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "travelhead",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T06:05:16Z",
+		"title": "John McPhee's Draft No. 4 ",
+		"url": "http://jsomers.net/mcphee-draft-no-4.pdf",
+		"author": "siromoney",
+		"points": 1,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400911516,
+		"_tags": ["story",
+		"author_siromoney",
+		"story_7792729"],
+		"objectID": "7792729",
+		"_highlightResult": {
+			"title": {
+				"value": "John McPhee's Draft No. 4 ",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://jsomers.net/mcphee-draft-no-4.pdf",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "siromoney",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T05:59:12Z",
+		"title": "Show HN: crype – diffable/syncable encryption for files or shell pipes",
+		"url": "http://code.ivysaur.me/crype.html",
+		"author": "mappu",
+		"points": 2,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 1,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400911152,
+		"_tags": ["story",
+		"author_mappu",
+		"story_7792723",
+		"show_hn"],
+		"objectID": "7792723",
+		"_highlightResult": {
+			"title": {
+				"value": "Show HN: crype – diffable/syncable encryption for files or shell pipes",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://code.ivysaur.me/crype.html",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "mappu",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T05:43:56Z",
+		"title": "The Hindenburg Disaster",
+		"url": "http://www.airships.net/hindenburg/disaster",
+		"author": "balakk",
+		"points": 2,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400910236,
+		"_tags": ["story",
+		"author_balakk",
+		"story_7792703"],
+		"objectID": "7792703",
+		"_highlightResult": {
+			"title": {
+				"value": "The Hindenburg Disaster",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://www.airships.net/hindenburg/disaster",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "balakk",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T05:24:29Z",
+		"title": "50 Linux Resources for Developers",
+		"url": "https://inventropy.us/blog/50-linux-resources-for-developers/",
+		"author": "beepp",
+		"points": 4,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400909069,
+		"_tags": ["story",
+		"author_beepp",
+		"story_7792685"],
+		"objectID": "7792685",
+		"_highlightResult": {
+			"title": {
+				"value": "50 Linux Resources for Developers",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "https://inventropy.us/blog/50-linux-resources-for-developers/",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "beepp",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T05:20:24Z",
+		"title": "Looking for a webRTC developer",
+		"url": "",
+		"author": "buntee2",
+		"points": 1,
+		"story_text": "i have been working on a product concept for the last 6 months. I have detailed mock-ups of the product down to font and colors and it just so happens that webRTC will be a critical technology component to successful implementation. I am looking for a technical co-founder who is excited about the prospects of real time communication and how a successful implementation can truly open our world.",
+		"comment_text": null,
+		"num_comments": 1,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400908824,
+		"_tags": ["story",
+		"author_buntee2",
+		"story_7792675"],
+		"objectID": "7792675",
+		"_highlightResult": {
+			"title": {
+				"value": "Looking for a webRTC developer",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "buntee2",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "i have been working on a product concept for the last 6 months. I have detailed mock-ups of the product down to font and colors and it just so happens that webRTC will be a critical technology component to successful implementation. I am looking for a technical co-founder who is excited about the prospects of real time communication and how a successful implementation can truly open our world.",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T04:55:56Z",
+		"title": "ElGamal Zero Knowledge Proofs | What's This Do?",
+		"url": "http://anthony-arnold.com/2014/05/04/elgamal-zero-knowledge-proofs/",
+		"author": "aburan28",
+		"points": 1,
+		"story_text": null,
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400907356,
+		"_tags": ["story",
+		"author_aburan28",
+		"story_7792645"],
+		"objectID": "7792645",
+		"_highlightResult": {
+			"title": {
+				"value": "ElGamal Zero Knowledge Proofs | What's This Do?",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://anthony-arnold.com/2014/05/04/elgamal-zero-knowledge-proofs/",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "aburan28",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T04:55:14Z",
+		"title": "Google OpenID 2.0 is deprecated",
+		"url": "https://developers.google.com/accounts/docs/OpenID",
+		"author": "_navaneethan",
+		"points": 1,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400907314,
+		"_tags": ["story",
+		"author__navaneethan",
+		"story_7792643"],
+		"objectID": "7792643",
+		"_highlightResult": {
+			"title": {
+				"value": "Google OpenID 2.0 is deprecated",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "https://developers.google.com/accounts/docs/OpenID",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "_navaneethan",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T04:52:44Z",
+		"title": "In food poisoning probes, officials call for Yelp",
+		"url": "http://news.yahoo.com/food-poisoning-probes-officials-call-yelp-202928186.html",
+		"author": "velodrome",
+		"points": 1,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400907164,
+		"_tags": ["story",
+		"author_velodrome",
+		"story_7792638"],
+		"objectID": "7792638",
+		"_highlightResult": {
+			"title": {
+				"value": "In food poisoning probes, officials call for Yelp",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://news.yahoo.com/food-poisoning-probes-officials-call-yelp-202928186.html",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "velodrome",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T04:42:26Z",
+		"title": "Chile students' debts go up in smoke",
+		"url": "http://www.theguardian.com/world/2014/may/23/chile-student-loan-debts-fried-potatoes",
+		"author": "pavanred",
+		"points": 8,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400906546,
+		"_tags": ["story",
+		"author_pavanred",
+		"story_7792626"],
+		"objectID": "7792626",
+		"_highlightResult": {
+			"title": {
+				"value": "Chile students' debts go up in smoke",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://www.theguardian.com/world/2014/may/23/chile-student-loan-debts-fried-potatoes",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "pavanred",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T04:17:52Z",
+		"title": "'Empathetically Correct' Is the New Politically Correct",
+		"url": "http://www.theatlantic.com/education/archive/2014/05/empathetically-correct-is-the-new-politically-correct/371442/",
+		"author": "wikiburner",
+		"points": 3,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400905072,
+		"_tags": ["story",
+		"author_wikiburner",
+		"story_7792597"],
+		"objectID": "7792597",
+		"_highlightResult": {
+			"title": {
+				"value": "'Empathetically Correct' Is the New Politically Correct",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://www.theatlantic.com/education/archive/2014/05/empathetically-correct-is-the-new-politically-correct/371442/",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "wikiburner",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T04:05:51Z",
+		"title": "Is online freelancing a viable source of income?",
+		"url": "http://graphicdesign.stackexchange.com/questions/31677/is-online-freelancing-a-viable-source-of-income",
+		"author": "unreal37",
+		"points": 2,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400904351,
+		"_tags": ["story",
+		"author_unreal37",
+		"story_7792590"],
+		"objectID": "7792590",
+		"_highlightResult": {
+			"title": {
+				"value": "Is online freelancing a viable source of income?",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://graphicdesign.stackexchange.com/questions/31677/is-online-freelancing-a-viable-source-of-income",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "unreal37",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T03:57:04Z",
+		"title": "Spaceweather Radio: Listen to the Camelopardalis meteor shower",
+		"url": "http://spaceweatherradio.com/",
+		"author": "zaroth",
+		"points": 11,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 2,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400903824,
+		"_tags": ["story",
+		"author_zaroth",
+		"story_7792581"],
+		"objectID": "7792581",
+		"_highlightResult": {
+			"title": {
+				"value": "Spaceweather Radio: Listen to the Camelopardalis meteor shower",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://spaceweatherradio.com/",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "zaroth",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T03:50:40Z",
+		"title": "Spring Boot and Thymeleaf with Maven",
+		"url": "http://blog.codeleak.pl/2014/04/how-to-spring-boot-and-thymeleaf-with-maven.html",
+		"author": "robinhowlett",
+		"points": 1,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400903440,
+		"_tags": ["story",
+		"author_robinhowlett",
+		"story_7792573"],
+		"objectID": "7792573",
+		"_highlightResult": {
+			"title": {
+				"value": "Spring Boot and Thymeleaf with Maven",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://blog.codeleak.pl/2014/04/how-to-spring-boot-and-thymeleaf-with-maven.html",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "robinhowlett",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T03:45:11Z",
+		"title": "Thomas Piketty’s exhaustive inequality data turn out to be flawed",
+		"url": "http://www.ft.com/cms/s/0/c9ce1a54-e281-11e3-89fd-00144feabdc0.html#axzz32bKeJpcs",
+		"author": "grimmfang",
+		"points": 3,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400903111,
+		"_tags": ["story",
+		"author_grimmfang",
+		"story_7792565"],
+		"objectID": "7792565",
+		"_highlightResult": {
+			"title": {
+				"value": "Thomas Piketty’s exhaustive inequality data turn out to be flawed",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://www.ft.com/cms/s/0/c9ce1a54-e281-11e3-89fd-00144feabdc0.html#axzz32bKeJpcs",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "grimmfang",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T03:03:08Z",
+		"title": "Rails GSoC projects announced",
+		"url": "http://weblog.rubyonrails.org/2014/5/23/meet-our-google-summer-of-code-students-and-mentors/",
+		"author": "chancancode",
+		"points": 12,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 11,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400900588,
+		"_tags": ["story",
+		"author_chancancode",
+		"story_7792490"],
+		"objectID": "7792490",
+		"_highlightResult": {
+			"title": {
+				"value": "Rails GSoC projects announced",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://weblog.rubyonrails.org/2014/5/23/meet-our-google-summer-of-code-students-and-mentors/",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "chancancode",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T02:57:39Z",
+		"title": "Introducing Quott",
+		"url": "http://quott.in/get-daily-quotes-to-your-email/",
+		"author": "yashness",
+		"points": 1,
+		"story_text": "Get daily quotes to your inbox !<p>To submit your quotes, submit at\\nhttp:&#x2F;&#x2F;daily.quott.in&#x2F;",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400900259,
+		"_tags": ["story",
+		"author_yashness",
+		"story_7792484"],
+		"objectID": "7792484",
+		"_highlightResult": {
+			"title": {
+				"value": "Introducing Quott",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://quott.in/get-daily-quotes-to-your-email/",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "yashness",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "Get daily quotes to your inbox !<p>To submit your quotes, submit at\\nhttp:&#x2F;&#x2F;daily.quott.in&#x2F;",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T02:53:38Z",
+		"title": "Tech companies say government has no right to suppress data request disclosures",
+		"url": "http://www.washingtonpost.com/blogs/the-switch/wp/2014/05/23/google-yahoo-facebook-and-microsoft-say-government-has-no-right-to-suppress-data-request-disclosures/?hpid=z3",
+		"author": "arunpjohny",
+		"points": 2,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400900018,
+		"_tags": ["story",
+		"author_arunpjohny",
+		"story_7792475"],
+		"objectID": "7792475",
+		"_highlightResult": {
+			"title": {
+				"value": "Tech companies say government has no right to suppress data request disclosures",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://www.washingtonpost.com/blogs/the-switch/wp/2014/05/23/google-yahoo-facebook-and-microsoft-say-government-has-no-right-to-suppress-data-request-disclosures/?hpid=z3",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "arunpjohny",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T02:49:32Z",
+		"title": "Why Do a Startup?",
+		"url": "https://studentrnd.org/blog/why-do-a-startup",
+		"author": "yla92",
+		"points": 2,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 1,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400899772,
+		"_tags": ["story",
+		"author_yla92",
+		"story_7792465"],
+		"objectID": "7792465",
+		"_highlightResult": {
+			"title": {
+				"value": "Why Do a Startup?",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "https://studentrnd.org/blog/why-do-a-startup",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "yla92",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T02:48:18Z",
+		"title": "Try Out Fira Sans: a Free, Open Source Typeface Commissioned by Mozilla",
+		"url": "http://www.donotlick.com/2014/05/23/try-out-fira-sans-a-free-open-source-typeface-commissioned-by-mozilla/",
+		"author": "Boriss",
+		"points": 40,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 9,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400899698,
+		"_tags": ["story",
+		"author_Boriss",
+		"story_7792462"],
+		"objectID": "7792462",
+		"_highlightResult": {
+			"title": {
+				"value": "Try Out Fira Sans: a Free, Open Source Typeface Commissioned by Mozilla",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://www.donotlick.com/2014/05/23/try-out-fira-sans-a-free-open-source-typeface-commissioned-by-mozilla/",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "Boriss",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T02:45:18Z",
+		"title": "Ask HN: Why is Stripe's API better than Braintree's API?",
+		"url": "",
+		"author": "ben-gy",
+		"points": 3,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 2,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400899518,
+		"_tags": ["story",
+		"author_ben-gy",
+		"story_7792454",
+		"ask_hn"],
+		"objectID": "7792454",
+		"_highlightResult": {
+			"title": {
+				"value": "Ask HN: Why is Stripe's API better than Braintree's API?",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "ben-gy",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T02:43:02Z",
+		"title": "(Your opinion) Is private access more valued than public access?",
+		"url": "",
+		"author": "OmarEL",
+		"points": 2,
+		"story_text": "Guys, I&#x27;d love your advice on this.<p>I&#x27;ve been working really hard on a show where I&#x27;ve been interviewing entrepreneurs and founders on various self growth and mindset topics.<p>Here&#x27;s the thing:<p>I&#x27;m launching quietly to test out different models and I&#x27;ve been debating this....While I&#x27;d love for as many people to watch the interviews, I personally feel like people should take some sort of action before watching.<p>So what I&#x27;ve done is put in a preview of each interview, then after the preview you&#x27;re prompted to login.<p>Some have bantered me over it and others have said it&#x27;s the right thing to do to validate viewers.<p>What&#x27;s right and what&#x27;s wrong with this in your own opinion? What would you do?<p>An example of it is here: http:&#x2F;&#x2F;www.omarel.com&#x2F;Tony-Stubblebine<p>The mobile preview is totally different from the desktop.<p>Thanks.",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400899382,
+		"_tags": ["story",
+		"author_OmarEL",
+		"story_7792451"],
+		"objectID": "7792451",
+		"_highlightResult": {
+			"title": {
+				"value": "(Your opinion) Is private access more valued than public access?",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "OmarEL",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "Guys, I&#x27;d love your advice on this.<p>I&#x27;ve been working really hard on a show where I&#x27;ve been interviewing entrepreneurs and founders on various self growth and mindset topics.<p>Here&#x27;s the thing:<p>I&#x27;m launching quietly to test out different models and I&#x27;ve been debating this....While I&#x27;d love for as many people to watch the interviews, I personally feel like people should take some sort of action before watching.<p>So what I&#x27;ve done is put in a preview of each interview, then after the preview you&#x27;re prompted to login.<p>Some have bantered me over it and others have said it&#x27;s the right thing to do to validate viewers.<p>What&#x27;s right and what&#x27;s wrong with this in your own opinion? What would you do?<p>An example of it is here: http:&#x2F;&#x2F;www.omarel.com&#x2F;Tony-Stubblebine<p>The mobile preview is totally different from the desktop.<p>Thanks.",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T02:42:46Z",
+		"title": "Show HN: Key Value store using HFS+ extended attributes",
+		"url": "https://github.com/radiofreejohn/xattrkv",
+		"author": "codezero",
+		"points": 3,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 1,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400899366,
+		"_tags": ["story",
+		"author_codezero",
+		"story_7792449",
+		"show_hn"],
+		"objectID": "7792449",
+		"_highlightResult": {
+			"title": {
+				"value": "Show HN: Key Value store using HFS+ extended attributes",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "https://github.com/radiofreejohn/xattrkv",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "codezero",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T02:40:58Z",
+		"title": "The world's 1st social-virtual network.",
+		"url": "http://www.NetworkFlo.com",
+		"author": "nlebesis",
+		"points": 1,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 1,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400899258,
+		"_tags": ["story",
+		"author_nlebesis",
+		"story_7792441"],
+		"objectID": "7792441",
+		"_highlightResult": {
+			"title": {
+				"value": "The world's 1st social-virtual network.",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://www.NetworkFlo.com",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "nlebesis",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T02:31:18Z",
+		"title": "Habits of Exceptionally Likeable People",
+		"url": "http://www.businessinsider.com/habits-of-exceptionally-likable-people-2014-5",
+		"author": "wallflower",
+		"points": 2,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400898678,
+		"_tags": ["story",
+		"author_wallflower",
+		"story_7792422"],
+		"objectID": "7792422",
+		"_highlightResult": {
+			"title": {
+				"value": "Habits of Exceptionally Likeable People",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://www.businessinsider.com/habits-of-exceptionally-likable-people-2014-5",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "wallflower",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T02:30:32Z",
+		"title": "We Brake for Mars",
+		"url": "https://www.youtube.com/watch?feature=player_embedded&v=G0asOKx5Xp0",
+		"author": "jmadsen",
+		"points": 2,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 1,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400898632,
+		"_tags": ["story",
+		"author_jmadsen",
+		"story_7792418"],
+		"objectID": "7792418",
+		"_highlightResult": {
+			"title": {
+				"value": "We Brake for Mars",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "https://www.youtube.com/watch?feature=player_embedded&v=G0asOKx5Xp0",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "jmadsen",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T02:30:01Z",
+		"title": "A Heated Debate: Are Climate Scientists Being Forced to Toe the Line?",
+		"url": "http://www.spiegel.de/international/world/climate-scientists-mixed-over-controversy-surrounding-respected-researcher-a-971033.html",
+		"author": "wikiburner",
+		"points": 2,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 1,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400898601,
+		"_tags": ["story",
+		"author_wikiburner",
+		"story_7792417"],
+		"objectID": "7792417",
+		"_highlightResult": {
+			"title": {
+				"value": "A Heated Debate: Are Climate Scientists Being Forced to Toe the Line?",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://www.spiegel.de/international/world/climate-scientists-mixed-over-controversy-surrounding-respected-researcher-a-971033.html",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "wikiburner",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T02:29:54Z",
+		"title": "Live Meteor Shower on NASA's Slooh Space Camera",
+		"url": "http://live.slooh.com/?",
+		"author": "sethbannon",
+		"points": 2,
+		"story_text": null,
+		"comment_text": null,
+		"num_comments": 2,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400898594,
+		"_tags": ["story",
+		"author_sethbannon",
+		"story_7792416"],
+		"objectID": "7792416",
+		"_highlightResult": {
+			"title": {
+				"value": "Live Meteor Shower on NASA's Slooh Space Camera",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://live.slooh.com/?",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "sethbannon",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T02:27:16Z",
+		"title": "Vinod Khosla: Doctors cannot compete with machines",
+		"url": "http://blog.sfgate.com/techchron/2014/05/23/vinod-khosla-doctors-cannot-compete-with-machines/",
+		"author": "ilamont",
+		"points": 2,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400898436,
+		"_tags": ["story",
+		"author_ilamont",
+		"story_7792403"],
+		"objectID": "7792403",
+		"_highlightResult": {
+			"title": {
+				"value": "Vinod Khosla: Doctors cannot compete with machines",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://blog.sfgate.com/techchron/2014/05/23/vinod-khosla-doctors-cannot-compete-with-machines/",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "ilamont",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T02:19:46Z",
+		"title": " Unilever To Forge New Partnerships With Startups With The Launch Of The Foundry",
+		"url": "http://www.fastcocreate.com/3030940/unilever-looks-to-forge-new-partnerships-with-startups-with-the-launch-of-the-foundry",
+		"author": "RougeFemme",
+		"points": 2,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400897986,
+		"_tags": ["story",
+		"author_RougeFemme",
+		"story_7792385"],
+		"objectID": "7792385",
+		"_highlightResult": {
+			"title": {
+				"value": " Unilever To Forge New Partnerships With Startups With The Launch Of The Foundry",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://www.fastcocreate.com/3030940/unilever-looks-to-forge-new-partnerships-with-startups-with-the-launch-of-the-foundry",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "RougeFemme",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T02:16:53Z",
+		"title": "A Bay Area Startup Tackling Consumer Product Reviews",
+		"url": "https://medium.com/p/3cd72eb5db6c",
+		"author": "CSenn",
+		"points": 1,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 4,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400897813,
+		"_tags": ["story",
+		"author_CSenn",
+		"story_7792379"],
+		"objectID": "7792379",
+		"_highlightResult": {
+			"title": {
+				"value": "A Bay Area Startup Tackling Consumer Product Reviews",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "https://medium.com/p/3cd72eb5db6c",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "CSenn",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T02:13:35Z",
+		"title": "Show HN: React JSX Transformer for Coffeescript",
+		"url": "https://github.com/jsdf/coffee-react-transform",
+		"author": "mambodog",
+		"points": 3,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400897615,
+		"_tags": ["story",
+		"author_mambodog",
+		"story_7792372",
+		"show_hn"],
+		"objectID": "7792372",
+		"_highlightResult": {
+			"title": {
+				"value": "Show HN: React JSX Transformer for Coffeescript",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "https://github.com/jsdf/coffee-react-transform",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "mambodog",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T02:12:50Z",
+		"title": "FilePreviews.io: File formats and features",
+		"url": "http://filepreviews.io/formats/?h",
+		"author": "flexterra",
+		"points": 1,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400897570,
+		"_tags": ["story",
+		"author_flexterra",
+		"story_7792370"],
+		"objectID": "7792370",
+		"_highlightResult": {
+			"title": {
+				"value": "FilePreviews.io: File formats and features",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://filepreviews.io/formats/?h",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "flexterra",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T02:12:07Z",
+		"title": "A Long Time Ago in a China Far, Far Away …",
+		"url": "http://www.mcgreene.org/?p=296",
+		"author": "bane",
+		"points": 3,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400897527,
+		"_tags": ["story",
+		"author_bane",
+		"story_7792369"],
+		"objectID": "7792369",
+		"_highlightResult": {
+			"title": {
+				"value": "A Long Time Ago in a China Far, Far Away …",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://www.mcgreene.org/?p=296",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "bane",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T02:07:31Z",
+		"title": "Backlash to Big Bang Discovery Gathers Steam",
+		"url": "http://www.scientificamerican.com/article/backlash-to-big-bang-discovery-gathers-steam/?WT.mc_id=SA_Facebook",
+		"author": "EGreg",
+		"points": 3,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400897251,
+		"_tags": ["story",
+		"author_EGreg",
+		"story_7792362"],
+		"objectID": "7792362",
+		"_highlightResult": {
+			"title": {
+				"value": "Backlash to Big Bang Discovery Gathers Steam",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://www.scientificamerican.com/article/backlash-to-big-bang-discovery-gathers-steam/?WT.mc_id=SA_Facebook",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "EGreg",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T02:03:31Z",
+		"title": "The market for apps is a vast wasteland where social is all that counts",
+		"url": "http://pando.com/2014/05/16/quantcasts-new-report-shows-that-the-market-for-apps-is-a-vast-wasteland-where-social-is-all-that-counts/",
+		"author": "peacewise",
+		"points": 2,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400897011,
+		"_tags": ["story",
+		"author_peacewise",
+		"story_7792356"],
+		"objectID": "7792356",
+		"_highlightResult": {
+			"title": {
+				"value": "The market for apps is a vast wasteland where social is all that counts",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://pando.com/2014/05/16/quantcasts-new-report-shows-that-the-market-for-apps-is-a-vast-wasteland-where-social-is-all-that-counts/",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "peacewise",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T01:59:00Z",
+		"title": "Out of Prohibition’s Reach: How Technology Cures Toxic Policy",
+		"url": "http://stanfordreview.org/article/out-of-prohibitions-reach-how-technology-cures-toxic-policy/",
+		"author": "stanfordreview",
+		"points": 26,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 8,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400896740,
+		"_tags": ["story",
+		"author_stanfordreview",
+		"story_7792348"],
+		"objectID": "7792348",
+		"_highlightResult": {
+			"title": {
+				"value": "Out of Prohibition’s Reach: How Technology Cures Toxic Policy",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://stanfordreview.org/article/out-of-prohibitions-reach-how-technology-cures-toxic-policy/",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "stanfordreview",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T01:57:01Z",
+		"title": "Helping to establish prior art",
+		"url": "",
+		"author": "datashovel",
+		"points": 1,
+		"story_text": "With regard to helping the community establish prior art on patents.  I think one &quot;cog in the wheel&quot; that probably should be in place is a queue-like system that would shuffle patent applications (as they become available on the USPTO website) to relevant newsgroups &#x2F; user groups &#x2F; mailing lists.<p>Thoughts?",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400896621,
+		"_tags": ["story",
+		"author_datashovel",
+		"story_7792345"],
+		"objectID": "7792345",
+		"_highlightResult": {
+			"title": {
+				"value": "Helping to establish prior art",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "datashovel",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "With regard to helping the community establish prior art on patents.  I think one &quot;cog in the wheel&quot; that probably should be in place is a queue-like system that would shuffle patent applications (as they become available on the USPTO website) to relevant newsgroups &#x2F; user groups &#x2F; mailing lists.<p>Thoughts?",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T01:51:00Z",
+		"title": "A Response to Michael Kinsley",
+		"url": "https://firstlook.org/theintercept/2014/05/23/response-michael-kinsley/",
+		"author": "aburan28",
+		"points": 33,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 6,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400896260,
+		"_tags": ["story",
+		"author_aburan28",
+		"story_7792329"],
+		"objectID": "7792329",
+		"_highlightResult": {
+			"title": {
+				"value": "A Response to Michael Kinsley",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "https://firstlook.org/theintercept/2014/05/23/response-michael-kinsley/",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "aburan28",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T01:43:19Z",
+		"title": "Show HN: QwickUp, open-source lookup tool.",
+		"url": "http://qwickup.com/",
+		"author": "shakiba",
+		"points": 3,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400895799,
+		"_tags": ["story",
+		"author_shakiba",
+		"story_7792315",
+		"show_hn"],
+		"objectID": "7792315",
+		"_highlightResult": {
+			"title": {
+				"value": "Show HN: QwickUp, open-source lookup tool.",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://qwickup.com/",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "shakiba",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T01:30:21Z",
+		"title": "Darpa Turns Oculus Into a Weapon for Cyberwar",
+		"url": "http://www.wired.com/2014/05/darpa-is-using-oculus-rift-to-prep-for-cyberwar/",
+		"author": "jonbaer",
+		"points": 2,
+		"story_text": null,
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400895021,
+		"_tags": ["story",
+		"author_jonbaer",
+		"story_7792288"],
+		"objectID": "7792288",
+		"_highlightResult": {
+			"title": {
+				"value": "Darpa Turns Oculus Into a Weapon for Cyberwar",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://www.wired.com/2014/05/darpa-is-using-oculus-rift-to-prep-for-cyberwar/",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "jonbaer",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T01:23:32Z",
+		"title": "Why News Commenters Should ‘Respect’ Instead of ‘Like’",
+		"url": "http://news-biz.org/post/86513872308/why-news-commenters-should-respect-instead-of-like",
+		"author": "gojomo",
+		"points": 1,
+		"story_text": null,
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400894612,
+		"_tags": ["story",
+		"author_gojomo",
+		"story_7792274"],
+		"objectID": "7792274",
+		"_highlightResult": {
+			"title": {
+				"value": "Why News Commenters Should ‘Respect’ Instead of ‘Like’",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://news-biz.org/post/86513872308/why-news-commenters-should-respect-instead-of-like",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "gojomo",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T01:22:13Z",
+		"title": "Introducing Nvest",
+		"url": "http://www.nvest.me/",
+		"author": "harrychenca",
+		"points": 39,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 30,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400894533,
+		"_tags": ["story",
+		"author_harrychenca",
+		"story_7792272"],
+		"objectID": "7792272",
+		"_highlightResult": {
+			"title": {
+				"value": "Introducing Nvest",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://www.nvest.me/",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "harrychenca",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T01:19:23Z",
+		"title": "What you need to know about pundits’ stock recommendations.",
+		"url": "https://medium.com/@Nvest/6e45d7ffd121",
+		"author": "harrychenca",
+		"points": 2,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400894363,
+		"_tags": ["story",
+		"author_harrychenca",
+		"story_7792269"],
+		"objectID": "7792269",
+		"_highlightResult": {
+			"title": {
+				"value": "What you need to know about pundits’ stock recommendations.",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "https://medium.com/@Nvest/6e45d7ffd121",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "harrychenca",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T01:16:53Z",
+		"title": "UTme, Uniqlo's Custom T-Shirt Design Application for Smartphones",
+		"url": "http://utme.uniqlo.com/",
+		"author": "ekianjo",
+		"points": 1,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400894213,
+		"_tags": ["story",
+		"author_ekianjo",
+		"story_7792266"],
+		"objectID": "7792266",
+		"_highlightResult": {
+			"title": {
+				"value": "UTme, Uniqlo's Custom T-Shirt Design Application for Smartphones",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://utme.uniqlo.com/",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "ekianjo",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T01:14:16Z",
+		"title": "Which position in the string caused the regular expression to fail?",
+		"url": "http://stackoverflow.com/a/23839795/1253312",
+		"author": "joeframbach",
+		"points": 1,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 1,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400894056,
+		"_tags": ["story",
+		"author_joeframbach",
+		"story_7792259"],
+		"objectID": "7792259",
+		"_highlightResult": {
+			"title": {
+				"value": "Which position in the string caused the regular expression to fail?",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://stackoverflow.com/a/23839795/1253312",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "joeframbach",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T01:05:27Z",
+		"title": "Which U.S. companies offer the best pay and benefits?",
+		"url": "http://www.cbsnews.com/news/which-u-s-companies-offer-the-best-pay-and-benefits/",
+		"author": "uger",
+		"points": 2,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400893527,
+		"_tags": ["story",
+		"author_uger",
+		"story_7792238"],
+		"objectID": "7792238",
+		"_highlightResult": {
+			"title": {
+				"value": "Which U.S. companies offer the best pay and benefits?",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://www.cbsnews.com/news/which-u-s-companies-offer-the-best-pay-and-benefits/",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "uger",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T01:01:51Z",
+		"title": "Bentley Commercial Shot and Edited with iPhone and iPad",
+		"url": "http://www.creativeplanetnetwork.com/dv/news/bentley-commercial-shot-and-edited-iphone-and-ipad/66473",
+		"author": "danboarder",
+		"points": 2,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400893311,
+		"_tags": ["story",
+		"author_danboarder",
+		"story_7792233"],
+		"objectID": "7792233",
+		"_highlightResult": {
+			"title": {
+				"value": "Bentley Commercial Shot and Edited with iPhone and iPad",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://www.creativeplanetnetwork.com/dv/news/bentley-commercial-shot-and-edited-iphone-and-ipad/66473",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "danboarder",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T01:00:44Z",
+		"title": "Skill cloud: Why companies should kill the job title",
+		"url": "http://thenextweb.com/entrepreneur/2014/05/23/skill-cloud-companies-kill-job-titles/",
+		"author": "jds375",
+		"points": 2,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400893244,
+		"_tags": ["story",
+		"author_jds375",
+		"story_7792230"],
+		"objectID": "7792230",
+		"_highlightResult": {
+			"title": {
+				"value": "Skill cloud: Why companies should kill the job title",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://thenextweb.com/entrepreneur/2014/05/23/skill-cloud-companies-kill-job-titles/",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "jds375",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T00:59:57Z",
+		"title": "MS defends corporate customer from the FBI",
+		"url": "http://www.businessinsider.com/tech-microsoft-challenge-government-2014-5",
+		"author": "degio",
+		"points": 4,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400893197,
+		"_tags": ["story",
+		"author_degio",
+		"story_7792228"],
+		"objectID": "7792228",
+		"_highlightResult": {
+			"title": {
+				"value": "MS defends corporate customer from the FBI",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://www.businessinsider.com/tech-microsoft-challenge-government-2014-5",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "degio",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T00:59:41Z",
+		"title": "Ebay India hacked, asks users to change password",
+		"url": "http://www.ebay.in/reset?_trkparms=clkid%3D7114499483457925147",
+		"author": "skbohra123",
+		"points": 2,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400893181,
+		"_tags": ["story",
+		"author_skbohra123",
+		"story_7792227"],
+		"objectID": "7792227",
+		"_highlightResult": {
+			"title": {
+				"value": "Ebay India hacked, asks users to change password",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://www.ebay.in/reset?_trkparms=clkid%3D7114499483457925147",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "skbohra123",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T00:54:55Z",
+		"title": "iOS Crash Reporting Test Suite",
+		"url": "http://www.crashprobe.com/",
+		"author": "Aqua_Geek",
+		"points": 2,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400892895,
+		"_tags": ["story",
+		"author_Aqua_Geek",
+		"story_7792219"],
+		"objectID": "7792219",
+		"_highlightResult": {
+			"title": {
+				"value": "iOS Crash Reporting Test Suite",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://www.crashprobe.com/",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "Aqua_Geek",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T00:52:39Z",
+		"title": "Street-Fighting Mathematics",
+		"url": "http://ocw.mit.edu/courses/mathematics/18-098-street-fighting-mathematics-january-iap-2008/",
+		"author": "kylemaxwell",
+		"points": 3,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400892759,
+		"_tags": ["story",
+		"author_kylemaxwell",
+		"story_7792214"],
+		"objectID": "7792214",
+		"_highlightResult": {
+			"title": {
+				"value": "Street-Fighting Mathematics",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://ocw.mit.edu/courses/mathematics/18-098-street-fighting-mathematics-january-iap-2008/",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "kylemaxwell",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T00:48:36Z",
+		"title": "Lenovo Y410 on sale for $279, PR stunt gone wrong?",
+		"url": "http://shop.lenovo.com/workperksca/ca/en/landingpage/promotions/ideapad/weekly-sale",
+		"author": "happycry",
+		"points": 18,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 29,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400892516,
+		"_tags": ["story",
+		"author_happycry",
+		"story_7792205"],
+		"objectID": "7792205",
+		"_highlightResult": {
+			"title": {
+				"value": "Lenovo Y410 on sale for $279, PR stunt gone wrong?",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://shop.lenovo.com/workperksca/ca/en/landingpage/promotions/ideapad/weekly-sale",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "happycry",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T00:47:47Z",
+		"title": "Generate a dynamic form in Flask with AJAX",
+		"url": "https://github.com/mjhea0/flask-ajax-form",
+		"author": "mjhea0",
+		"points": 1,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400892467,
+		"_tags": ["story",
+		"author_mjhea0",
+		"story_7792201"],
+		"objectID": "7792201",
+		"_highlightResult": {
+			"title": {
+				"value": "Generate a dynamic form in Flask with AJAX",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "https://github.com/mjhea0/flask-ajax-form",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "mjhea0",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T00:47:11Z",
+		"title": "Forum on Risks to the Public in Computers and Related Systems (Vol27 Iss89)",
+		"url": "http://catless.ncl.ac.uk/Risks/27.89.html",
+		"author": "christianbryant",
+		"points": 1,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400892431,
+		"_tags": ["story",
+		"author_christianbryant",
+		"story_7792199"],
+		"objectID": "7792199",
+		"_highlightResult": {
+			"title": {
+				"value": "Forum on Risks to the Public in Computers and Related Systems (Vol27 Iss89)",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://catless.ncl.ac.uk/Risks/27.89.html",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "christianbryant",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T00:46:50Z",
+		"title": "I'll take #1 spot on AppStore with my 3-day making game Your thoughts: y or n?",
+		"url": "https://itunes.apple.com/app/id881434426",
+		"author": "bryanwong",
+		"points": 1,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 1,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400892410,
+		"_tags": ["story",
+		"author_bryanwong",
+		"story_7792196"],
+		"objectID": "7792196",
+		"_highlightResult": {
+			"title": {
+				"value": "I'll take #1 spot on AppStore with my 3-day making game Your thoughts: y or n?",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "https://itunes.apple.com/app/id881434426",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "bryanwong",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T00:44:17Z",
+		"title": "YouTube Plans To Add Built-In Crowdfunding Capability",
+		"url": "http://www.nbcnews.com/tech/internet/youtube-plans-add-built-crowdfunding-capability-n113361",
+		"author": "jds375",
+		"points": 2,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 1,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400892257,
+		"_tags": ["story",
+		"author_jds375",
+		"story_7792188"],
+		"objectID": "7792188",
+		"_highlightResult": {
+			"title": {
+				"value": "YouTube Plans To Add Built-In Crowdfunding Capability",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://www.nbcnews.com/tech/internet/youtube-plans-add-built-crowdfunding-capability-n113361",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "jds375",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T00:44:08Z",
+		"title": "Walking upside down with magnetic shoes",
+		"url": "http://techcrunch.com/2014/05/22/that-guy-who-built-his-own-wolverine-claws-he-just-built-shoes-to-walk-on-the-ceiling/?ncid=rss&source=gravity&cps=gravity",
+		"author": "relampago",
+		"points": 1,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400892248,
+		"_tags": ["story",
+		"author_relampago",
+		"story_7792187"],
+		"objectID": "7792187",
+		"_highlightResult": {
+			"title": {
+				"value": "Walking upside down with magnetic shoes",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://techcrunch.com/2014/05/22/that-guy-who-built-his-own-wolverine-claws-he-just-built-shoes-to-walk-on-the-ceiling/?ncid=rss&source=gravity&cps=gravity",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "relampago",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T00:36:51Z",
+		"title": "Did Piketty Get His Math Wrong?",
+		"url": "http://www.nytimes.com/2014/05/24/upshot/did-piketty-get-his-math-wrong.html",
+		"author": "tokenadult",
+		"points": 7,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400891811,
+		"_tags": ["story",
+		"author_tokenadult",
+		"story_7792169"],
+		"objectID": "7792169",
+		"_highlightResult": {
+			"title": {
+				"value": "Did Piketty Get His Math Wrong?",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://www.nytimes.com/2014/05/24/upshot/did-piketty-get-his-math-wrong.html",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "tokenadult",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T00:34:03Z",
+		"title": "Piketty paranoia: Why conservatives are suddenly terrified of revolution",
+		"url": "http://www.salon.com/2014/05/23/piketty_in_their_heads_why_conservatives_are_suddenly_terrified_of_revolution_partner/",
+		"author": "rberger",
+		"points": 3,
+		"story_text": null,
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400891643,
+		"_tags": ["story",
+		"author_rberger",
+		"story_7792162"],
+		"objectID": "7792162",
+		"_highlightResult": {
+			"title": {
+				"value": "Piketty paranoia: Why conservatives are suddenly terrified of revolution",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://www.salon.com/2014/05/23/piketty_in_their_heads_why_conservatives_are_suddenly_terrified_of_revolution_partner/",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "rberger",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T00:30:45Z",
+		"title": "Help Me Decide Email Service Providers (ESPs)",
+		"url": "",
+		"author": "dangersilv",
+		"points": 1,
+		"story_text": "Responsys \\nExactTarget \\nBlueHornet\\nSendGrid+SendWithUs<p>others?<p>Trying to decide between them. Sending out 50mill emails per year. Hoping to stay under 50k&#x2F;yr<p>Interested in a lot of functionality and REST API...  Any advice you could provide would be AWESOME!!<p>Thanks",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400891445,
+		"_tags": ["story",
+		"author_dangersilv",
+		"story_7792151"],
+		"objectID": "7792151",
+		"_highlightResult": {
+			"title": {
+				"value": "Help Me Decide Email Service Providers (ESPs)",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "dangersilv",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "Responsys \\nExactTarget \\nBlueHornet\\nSendGrid+SendWithUs<p>others?<p>Trying to decide between them. Sending out 50mill emails per year. Hoping to stay under 50k&#x2F;yr<p>Interested in a lot of functionality and REST API...  Any advice you could provide would be AWESOME!!<p>Thanks",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T00:26:32Z",
+		"title": "The stupidest audiophile argument against double-blind testing to date",
+		"url": "http://rocknerd.co.uk/2014/05/23/the-stupidest-audiophile-argument-against-double-blind-testing-to-date/",
+		"author": "davidgerard",
+		"points": 3,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400891192,
+		"_tags": ["story",
+		"author_davidgerard",
+		"story_7792131"],
+		"objectID": "7792131",
+		"_highlightResult": {
+			"title": {
+				"value": "The stupidest audiophile argument against double-blind testing to date",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://rocknerd.co.uk/2014/05/23/the-stupidest-audiophile-argument-against-double-blind-testing-to-date/",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "davidgerard",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T00:23:46Z",
+		"title": "J Can be Readable",
+		"url": "http://kukuruku.co/hub/funcprog/j-can-be-readable",
+		"author": "skazka16",
+		"points": 12,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 4,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400891026,
+		"_tags": ["story",
+		"author_skazka16",
+		"story_7792118"],
+		"objectID": "7792118",
+		"_highlightResult": {
+			"title": {
+				"value": "J Can be Readable",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://kukuruku.co/hub/funcprog/j-can-be-readable",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "skazka16",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T00:23:24Z",
+		"title": "EV Grieve: A Google Glass Feast",
+		"url": "http://evgrieve.com/2014/05/a-google-glass-feast.html",
+		"author": "Cbasedlifeform",
+		"points": 1,
+		"story_text": null,
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400891004,
+		"_tags": ["story",
+		"author_Cbasedlifeform",
+		"story_7792115"],
+		"objectID": "7792115",
+		"_highlightResult": {
+			"title": {
+				"value": "EV Grieve: A Google Glass Feast",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "http://evgrieve.com/2014/05/a-google-glass-feast.html",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "Cbasedlifeform",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T00:21:41Z",
+		"title": "“Four of the most important paragraphs I’ll ever write.”",
+		"url": "https://www.facebook.com/notes/james-patterson/please-take-a-moment-to-read-this/745751215464869",
+		"author": "001sky",
+		"points": 2,
+		"story_text": "",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1400890901,
+		"_tags": ["story",
+		"author_001sky",
+		"story_7792104"],
+		"objectID": "7792104",
+		"_highlightResult": {
+			"title": {
+				"value": "“Four of the most important paragraphs I’ll ever write.”",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "https://www.facebook.com/notes/james-patterson/please-take-a-moment-to-read-this/745751215464869",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "001sky",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	},
+	{
+		"created_at": "2014-05-24T00:16:26Z",
+		"title": "How Clayton Christensen crowdsourced \"The Capitalist's Dilemma\"",      "url": "http: //hbr.org/web/infographic/2014/06/a-new-approach-to-research",      "author": "alex_marchant",      "points": 1,      "story_text": "",      "comment_text": null,      "num_comments": 0,      "story_id": null,      "story_title": null,      "story_url": null,      "parent_id": null,      "created_at_i": 1400890586,      "_tags": [        "story",        "author_alex_marchant",        "story_7792081"      ],      "objectID": "7792081",      "_highlightResult": {        "title": {          "value": "HowClaytonChristensencrowdsourced\"The Capitalist's Dilemma\"",          "matchLevel": "none",          "matchedWords": []        },        "url": {          "value": "http: //hbr.org/web/infographic/2014/06/a-new-approach-to-research",          "matchLevel": "none",          "matchedWords": []        },        "author": {          "value": "alex_marchant",          "matchLevel": "none",          "matchedWords": []        },        "story_text": {          "value": "",          "matchLevel": "none",          "matchedWords": []        }      }    },    {      "created_at": "2014-05-24T00: 16: 10Z",      "title": "WebHostingTrendsYouMayNotKnowYet",      "url": "http: //www.superb.info/web-hosting-trends/",      "author": "raynesandrew",      "points": 1,      "story_text": "",      "comment_text": null,      "num_comments": 0,      "story_id": null,      "story_title": null,      "story_url": null,      "parent_id": null,      "created_at_i": 1400890570,      "_tags": [        "story",        "author_raynesandrew",        "story_7792079"      ],      "objectID": "7792079",      "_highlightResult": {        "title": {          "value": "WebHostingTrendsYouMayNotKnowYet",          "matchLevel": "none",          "matchedWords": []        },        "url": {          "value": "http: //www.superb.info/web-hosting-trends/",          "matchLevel": "none",          "matchedWords": []        },        "author": {          "value": "raynesandrew",          "matchLevel": "none",          "matchedWords": []        },        "story_text": {          "value": "",          "matchLevel": "none",          "matchedWords": []        }      }    },    {      "created_at": "2014-05-24T00: 14: 36Z",      "title": "ShowHN: WebroughtiOSdictationtoWindows",      "url": "http: //www.myechoapp.com",      "author": "shanselman",      "points": 41,      "story_text": "",      "comment_text": null,      "num_comments": 10,      "story_id": null,      "story_title": null,      "story_url": null,      "parent_id": null,      "created_at_i": 1400890476,      "_tags": [        "story",        "author_shanselman",        "story_7792072",        "show_hn"      ],      "objectID": "7792072",      "_highlightResult": {        "title": {          "value": "ShowHN: WebroughtiOSdictationtoWindows",          "matchLevel": "none",          "matchedWords": []        },        "url": {          "value": "http: //www.myechoapp.com",          "matchLevel": "none",          "matchedWords": []        },        "author": {          "value": "shanselman",          "matchLevel": "none",          "matchedWords": []        },        "story_text": {          "value": "",          "matchLevel": "none",          "matchedWords": []        }      }    },    {      "created_at": "2014-05-24T00: 05: 20Z",      "title": "MicrosoftSeesTheFutureOfTVInAnOld-SchoolRole-PlayingGame",      "url": "http: //www.forbes.com/sites/davidewalt/2014/04/28/microsoft-sees-the-future-of-tv-in-an-old-school-role-playing-game/",      "author": "kposehn",      "points": 1,      "story_text": null,      "comment_text": null,      "num_comments": 0,      "story_id": null,      "story_title": null,      "story_url": null,      "parent_id": null,      "created_at_i": 1400889920,      "_tags": [        "story",        "author_kposehn",        "story_7792049"      ],      "objectID": "7792049",      "_highlightResult": {        "title": {          "value": "MicrosoftSeesTheFutureOfTVInAnOld-SchoolRole-PlayingGame",          "matchLevel": "none",          "matchedWords": []        },        "url": {          "value": "http: //www.forbes.com/sites/davidewalt/2014/04/28/microsoft-sees-the-future-of-tv-in-an-old-school-role-playing-game/",          "matchLevel": "none",          "matchedWords": []        },        "author": {          "value": "kposehn",          "matchLevel": "none",          "matchedWords": []        }      }    },    {      "created_at": "2014-05-23T23: 58: 09Z",      "title": "Mu4e: ane-mailclientforemacs",      "url": "http: //www.djcbsoftware.nl/code/mu/mu4e.html",      "author": "michaelsbradley",      "points": 2,      "story_text": "",      "comment_text": null,      "num_comments": 0,      "story_id": null,      "story_title": null,      "story_url": null,      "parent_id": null,      "created_at_i": 1400889489,      "_tags": [        "story",        "author_michaelsbradley",        "story_7792029"      ],      "objectID": "7792029",      "_highlightResult": {        "title": {          "value": "Mu4e: ane-mailclientforemacs",          "matchLevel": "none",          "matchedWords": []        },        "url": {          "value": "http: //www.djcbsoftware.nl/code/mu/mu4e.html",          "matchLevel": "none",          "matchedWords": []        },        "author": {          "value": "michaelsbradley",          "matchLevel": "none",          "matchedWords": []        },        "story_text": {          "value": "",          "matchLevel": "none",          "matchedWords": []        }      }    },    {      "created_at": "2014-05-23T23: 57: 29Z",      "title": "GaysocialnetworkMoovzpullsin$1.4milliontohelpitchatupmorenewusers",      "url": "http: //www.techinasia.com/moovz-flirty-app-gay-guys-gets-funding/",      "author": "ronyronch",      "points": 1,      "story_text": "",      "comment_text": null,      "num_comments": 0,      "story_id": null,      "story_title": null,      "story_url": null,      "parent_id": null,      "created_at_i": 1400889449,      "_tags": [        "story",        "author_ronyronch",        "story_7792027"      ],      "objectID": "7792027",      "_highlightResult": {        "title": {          "value": "GaysocialnetworkMoovzpullsin$1.4milliontohelpitchatupmorenewusers",          "matchLevel": "none",          "matchedWords": []        },        "url": {          "value": "http: //www.techinasia.com/moovz-flirty-app-gay-guys-gets-funding/",          "matchLevel": "none",          "matchedWords": []        },        "author": {          "value": "ronyronch",          "matchLevel": "none",          "matchedWords": []        },        "story_text": {          "value": "",          "matchLevel": "none",          "matchedWords": []        }      }    },    {      "created_at": "2014-05-23T23: 57: 25Z",      "title": "WhydoesGitHubletmecommitasotherpeople?",      "url": "http: //gluxon.com/blog/2014/05/23/Why-does-GitHub-let-me-commit-as-other-people",      "author": "gluxon",      "points": 37,      "story_text": "",      "comment_text": null,      "num_comments": 51,      "story_id": null,      "story_title": null,      "story_url": null,      "parent_id": null,      "created_at_i": 1400889445,      "_tags": [        "story",        "author_gluxon",        "story_7792026"      ],      "objectID": "7792026",      "_highlightResult": {        "title": {          "value": "WhydoesGitHubletmecommitasotherpeople?",          "matchLevel": "none",          "matchedWords": []        },        "url": {          "value": "http: //gluxon.com/blog/2014/05/23/Why-does-GitHub-let-me-commit-as-other-people",          "matchLevel": "none",          "matchedWords": []        },        "author": {          "value": "gluxon",          "matchLevel": "none",          "matchedWords": []        },        "story_text": {          "value": "",          "matchLevel": "none",          "matchedWords": []        }      }    },    {      "created_at": "2014-05-23T23: 57: 16Z",      "title": "Politicsortechnology–whichwillsavetheworld?",      "url": "http: //www.theguardian.com/books/2014/may/23/politics-technology-save-world-david-runciman",      "author": "coffeeyesplease",      "points": 3,      "story_text": "",      "comment_text": null,      "num_comments": 1,      "story_id": null,      "story_title": null,      "story_url": null,      "parent_id": null,      "created_at_i": 1400889436,      "_tags": [        "story",        "author_coffeeyesplease",        "story_7792025"      ],      "objectID": "7792025",      "_highlightResult": {        "title": {          "value": "Politicsortechnology–whichwillsavetheworld?",          "matchLevel": "none",          "matchedWords": []        },        "url": {          "value": "http: //www.theguardian.com/books/2014/may/23/politics-technology-save-world-david-runciman",          "matchLevel": "none",          "matchedWords": []        },        "author": {          "value": "coffeeyesplease",          "matchLevel": "none",          "matchedWords": []        },        "story_text": {          "value": "",          "matchLevel": "none",          "matchedWords": []        }      }    },    {      "created_at": "2014-05-23T23: 55: 42Z",      "title": "SVG+Matrix3Dhybridanimations",      "url": "http: //thomasstreet.com/blog/famous/2014/05/23/svg-matrix3d-hybrid-animations.html",      "author": "zackbrown",      "points": 2,      "story_text": "",      "comment_text": null,      "num_comments": 0,      "story_id": null,      "story_title": null,      "story_url": null,      "parent_id": null,      "created_at_i": 1400889342,      "_tags": [        "story",        "author_zackbrown",        "story_7792018"      ],      "objectID": "7792018",      "_highlightResult": {        "title": {          "value": "SVG+Matrix3Dhybridanimations",          "matchLevel": "none",          "matchedWords": []        },        "url": {          "value": "http: //thomasstreet.com/blog/famous/2014/05/23/svg-matrix3d-hybrid-animations.html",          "matchLevel": "none",          "matchedWords": []        },        "author": {          "value": "zackbrown",          "matchLevel": "none",          "matchedWords": []        },        "story_text": {          "value": "",          "matchLevel": "none",          "matchedWords": []        }      }    },    {      "created_at": "2014-05-23T23: 54: 09Z",      "title": "XAdPackageProblem",      "url": "http: //blog.codeeval.com/xad",      "author": "veritas9",      "points": 1,      "story_text": "",      "comment_text": null,      "num_comments": 0,      "story_id": null,      "story_title": null,      "story_url": null,      "parent_id": null,      "created_at_i": 1400889249,      "_tags": [        "story",        "author_veritas9",        "story_7792009"      ],      "objectID": "7792009",      "_highlightResult": {        "title": {          "value": "XAdPackageProblem",          "matchLevel": "none",          "matchedWords": []        },        "url": {          "value": "http: //blog.codeeval.com/xad",          "matchLevel": "none",          "matchedWords": []        },        "author": {          "value": "veritas9",          "matchLevel": "none",          "matchedWords": []        },        "story_text": {          "value": "",          "matchLevel": "none",          "matchedWords": []        }      }    },    {      "created_at": "2014-05-23T23: 52: 57Z",      "title": "UsersfolderbeinghiddenwithiTunes11.2installedandFindMyMacenabled",      "url": "https: //derflounder.wordpress.com/2014/05/16/users-folder-being-hidden-with-itunes-11-2-installed-and-find-my-mac-enabled/",      "author": "mmphosis",      "points": 1,      "story_text": "",      "comment_text": null,      "num_comments": 0,      "story_id": null,      "story_title": null,      "story_url": null,      "parent_id": null,      "created_at_i": 1400889177,      "_tags": [        "story",        "author_mmphosis",        "story_7792005"      ],      "objectID": "7792005",      "_highlightResult": {        "title": {          "value": "UsersfolderbeinghiddenwithiTunes11.2installedandFindMyMacenabled",          "matchLevel": "none",          "matchedWords": []        },        "url": {          "value": "https: //derflounder.wordpress.com/2014/05/16/users-folder-being-hidden-with-itunes-11-2-installed-and-find-my-mac-enabled/",          "matchLevel": "none",          "matchedWords": []        },        "author": {          "value": "mmphosis",          "matchLevel": "none",          "matchedWords": []        },        "story_text": {          "value": "",          "matchLevel": "none",          "matchedWords": []        }      }    },    {      "created_at": "2014-05-23T23: 52: 26Z",      "title": "WhatGoingThroughTwoIncubatorsHasTaughtMe",      "url": "https: //medium.com/@sherm8n/4ffc0db7cabd",      "author": "sherm8n",      "points": 1,      "story_text": "",      "comment_text": null,      "num_comments": 0,      "story_id": null,      "story_title": null,      "story_url": null,      "parent_id": null,      "created_at_i": 1400889146,      "_tags": [        "story",        "author_sherm8n",        "story_7792003"      ],      "objectID": "7792003",      "_highlightResult": {        "title": {          "value": "WhatGoingThroughTwoIncubatorsHasTaughtMe",          "matchLevel": "none",          "matchedWords": []        },        "url": {          "value": "https: //medium.com/@sherm8n/4ffc0db7cabd",          "matchLevel": "none",          "matchedWords": []        },        "author": {          "value": "sherm8n",          "matchLevel": "none",          "matchedWords": []        },        "story_text": {          "value": "",          "matchLevel": "none",          "matchedWords": []        }      }    },    {      "created_at": "2014-05-23T23: 51: 41Z",      "title": "ThinkComputerFoundationSuesU.S.CourtsoverPACERFees",      "url": "http: //www.plainsite.org/dockets/29himg3wm/california-northern-district-court/think-computer-foundation-et-al-v-administrative-office-of-the-united-states-courts-et-al/",      "author": "thinkcomp",      "points": 18,      "story_text": "",      "comment_text": null,      "num_comments": 11,      "story_id": null,      "story_title": null,      "story_url": null,      "parent_id": null,      "created_at_i": 1400889101,      "_tags": [        "story",        "author_thinkcomp",        "story_7792000"      ],      "objectID": "7792000",      "_highlightResult": {        "title": {          "value": "ThinkComputerFoundationSuesU.S.CourtsoverPACERFees",          "matchLevel": "none",          "matchedWords": []        },        "url": {          "value": "http: //www.plainsite.org/dockets/29himg3wm/california-northern-district-court/think-computer-foundation-et-al-v-administrative-office-of-the-united-states-courts-et-al/",          "matchLevel": "none",          "matchedWords": []        },        "author": {          "value": "thinkcomp",          "matchLevel": "none",          "matchedWords": []        },        "story_text": {          "value": "",          "matchLevel": "none",          "matchedWords": []        }      }    },    {      "created_at": "2014-05-23T23: 45: 22Z",      "title": "RustforC++programmers–part7: datatypes",      "url": "http: //featherweightmusings.blogspot.co.nz/2014/05/t-for-c-programmers-part-7-data-types.html",      "author": "pohl",      "points": 1,      "story_text": "",      "comment_text": null,      "num_comments": 0,      "story_id": null,      "story_title": null,      "story_url": null,      "parent_id": null,      "created_at_i": 1400888722,      "_tags": [        "story",        "author_pohl",        "story_7791987"      ],      "objectID": "7791987",      "_highlightResult": {        "title": {          "value": "RustforC++programmers–part7: datatypes",          "matchLevel": "none",          "matchedWords": []        },        "url": {          "value": "http: //featherweightmusings.blogspot.co.nz/2014/05/t-for-c-programmers-part-7-data-types.html",          "matchLevel": "none",          "matchedWords": []        },        "author": {          "value": "pohl",          "matchLevel": "none",          "matchedWords": []        },        "story_text": {          "value": "",          "matchLevel": "none",          "matchedWords": []        }      }    },    {      "created_at": "2014-05-23T23: 45: 05Z",      "title": "AWesternKidLivinginCommunistPoland",      "url": "http: //jacquesmattheij.com/a-western-kid-living-in-communist-poland",      "author": "domador",      "points": 1,      "story_text": "",      "comment_text": null,      "num_comments": 0,      "story_id": null,      "story_title": null,      "story_url": null,      "parent_id": null,      "created_at_i": 1400888705,      "_tags": [        "story",        "author_domador",        "story_7791986"      ],      "objectID": "7791986",      "_highlightResult": {        "title": {          "value": "AWesternKidLivinginCommunistPoland",          "matchLevel": "none",          "matchedWords": []        },        "url": {          "value": "http: //jacquesmattheij.com/a-western-kid-living-in-communist-poland",          "matchLevel": "none",          "matchedWords": []        },        "author": {          "value": "domador",          "matchLevel": "none",          "matchedWords": []        },        "story_text": {          "value": "",          "matchLevel": "none",          "matchedWords": []        }      }    },    {      "created_at": "2014-05-23T23: 41: 19Z",      "title": "FastCordovaapplications",      "url": "http: //fr.slideshare.net/iivanoo/5-fast-cordova",      "author": "matt42",      "points": 1,      "story_text": null,      "comment_text": null,      "num_comments": 0,      "story_id": null,      "story_title": null,      "story_url": null,      "parent_id": null,      "created_at_i": 1400888479,      "_tags": [        "story",        "author_matt42",        "story_7791974"      ],      "objectID": "7791974",      "_highlightResult": {        "title": {          "value": "FastCordovaapplications",          "matchLevel": "none",          "matchedWords": []        },        "url": {          "value": "http: //fr.slideshare.net/iivanoo/5-fast-cordova",          "matchLevel": "none",          "matchedWords": []        },        "author": {          "value": "matt42",          "matchLevel": "none",          "matchedWords": []        }      }    },    {      "created_at": "2014-05-23T23: 40: 12Z",      "title": "2275MorphOSlicencessold",      "url": "http: //www.osnews.com/story/27737/2275_MorphOS_licences_sold",      "author": "rbanffy",      "points": 1,      "story_text": "",      "comment_text": null,      "num_comments": 0,      "story_id": null,      "story_title": null,      "story_url": null,      "parent_id": null,      "created_at_i": 1400888412,      "_tags": [        "story",        "author_rbanffy",        "story_7791970"      ],      "objectID": "7791970",      "_highlightResult": {        "title": {          "value": "2275MorphOSlicencessold",          "matchLevel": "none",          "matchedWords": []        },        "url": {          "value": "http: //www.osnews.com/story/27737/2275_MorphOS_licences_sold",          "matchLevel": "none",          "matchedWords": []        },        "author": {          "value": "rbanffy",          "matchLevel": "none",          "matchedWords": []        },        "story_text": {          "value": "",          "matchLevel": "none",          "matchedWords": []        }      }    },    {      "created_at": "2014-05-23T23: 36: 03Z",      "title": "Listentometeorshowerontheradio(orseeitontheweb)",      "url": "http: //www.salon.com/2014/05/23/tonights_spectacular_new_meteor_shower_can_be_seen_and_heard_heres_how/",      "author": "zw123456",      "points": 1,      "story_text": "",      "comment_text": null,      "num_comments": 0,      "story_id": null,      "story_title": null,      "story_url": null,      "parent_id": null,      "created_at_i": 1400888163,      "_tags": [        "story",        "author_zw123456",        "story_7791958"      ],      "objectID": "7791958",      "_highlightResult": {        "title": {          "value": "Listentometeorshowerontheradio(orseeitontheweb)",          "matchLevel": "none",          "matchedWords": []        },        "url": {          "value": "http: //www.salon.com/2014/05/23/tonights_spectacular_new_meteor_shower_can_be_seen_and_heard_heres_how/",          "matchLevel": "none",          "matchedWords": []        },        "author": {          "value": "zw123456",          "matchLevel": "none",          "matchedWords": []        },        "story_text": {          "value": "",          "matchLevel": "none",          "matchedWords": []        }      }    },    {      "created_at": "2014-05-23T23: 35: 31Z",      "title": "The6StepProcessofDesigningaWordPressSiteFromToptoBottomQuickly",      "url": "http: //www.codeinwp.com/blog/the-6-step-process-of-designing-a-wordpress-site/",      "author": "maldinii",      "points": 1,      "story_text": "",      "comment_text": null,      "num_comments": 0,      "story_id": null,      "story_title": null,      "story_url": null,      "parent_id": null,      "created_at_i": 1400888131,      "_tags": [        "story",        "author_maldinii",        "story_7791955"      ],      "objectID": "7791955",      "_highlightResult": {        "title": {          "value": "The6StepProcessofDesigningaWordPressSiteFromToptoBottomQuickly",          "matchLevel": "none",          "matchedWords": []        },        "url": {          "value": "http: //www.codeinwp.com/blog/the-6-step-process-of-designing-a-wordpress-site/",          "matchLevel": "none",          "matchedWords": []        },        "author": {          "value": "maldinii",          "matchLevel": "none",          "matchedWords": []        },        "story_text": {          "value": "",          "matchLevel": "none",          "matchedWords": []        }      }    },    {      "created_at": "2014-05-23T23: 33: 41Z",      "title": "AnIntroductiontoStatisticalLearning",      "url": "http: //www-bcf.usc.edu/~gareth/ISL/",      "author": "lobo_tuerto",      "points": 2,      "story_text": "",      "comment_text": null,      "num_comments": 0,      "story_id": null,      "story_title": null,      "story_url": null,      "parent_id": null,      "created_at_i": 1400888021,      "_tags": [        "story",        "author_lobo_tuerto",        "story_7791949"      ],      "objectID": "7791949",      "_highlightResult": {        "title": {          "value": "AnIntroductiontoStatisticalLearning",          "matchLevel": "none",          "matchedWords": []        },        "url": {          "value": "http: //www-bcf.usc.edu/~gareth/ISL/",          "matchLevel": "none",          "matchedWords": []        },        "author": {          "value": "lobo_tuerto",          "matchLevel": "none",          "matchedWords": []        },        "story_text": {          "value": "",          "matchLevel": "none",          "matchedWords": []        }      }    },    {      "created_at": "2014-05-23T23: 24: 48Z",      "title": "U.S.officialscutestimateofrecoverableMontereyShaleoilby96%",      "url": "http: //www.latimes.com/business/la-fi-oil-20140521-story.html",      "author": "T-A",      "points": 48,      "story_text": "",      "comment_text": null,      "num_comments": 24,      "story_id": null,      "story_title": null,      "story_url": null,      "parent_id": null,      "created_at_i": 1400887488,      "_tags": [        "story",        "author_T-A",        "story_7791929"      ],      "objectID": "7791929",      "_highlightResult": {        "title": {          "value": "U.S.officialscutestimateofrecoverableMontereyShaleoilby96%",          "matchLevel": "none",          "matchedWords": []        },        "url": {          "value": "http: //www.latimes.com/business/la-fi-oil-20140521-story.html",          "matchLevel": "none",          "matchedWords": []        },        "author": {          "value": "T-A",          "matchLevel": "none",          "matchedWords": []        },        "story_text": {          "value": "",          "matchLevel": "none",          "matchedWords": []        }      }    },    {      "created_at": "2014-05-23T23: 22: 04Z",      "title": "HiggsBosonMachineLearningChallenge",      "url": "http: //www.kaggle.com/c/higgs-boson/",      "author": "sytelus",      "points": 2,      "story_text": "",      "comment_text": null,      "num_comments": 0,      "story_id": null,      "story_title": null,      "story_url": null,      "parent_id": null,      "created_at_i": 1400887324,      "_tags": [        "story",        "author_sytelus",        "story_7791918"      ],      "objectID": "7791918",      "_highlightResult": {        "title": {          "value": "HiggsBosonMachineLearningChallenge",          "matchLevel": "none",          "matchedWords": []        },        "url": {          "value": "http: //www.kaggle.com/c/higgs-boson/",          "matchLevel": "none",          "matchedWords": []        },        "author": {          "value": "sytelus",          "matchLevel": "none",          "matchedWords": []        },        "story_text": {          "value": "",          "matchLevel": "none",          "matchedWords": []        }      }    },    {      "created_at": "2014-05-23T23: 19: 40Z",      "title": "ShopforlocalfoodonGoodEggs…byzipcode",      "url": "http: //www.goodeggs.me/",      "author": "rescue_tarin",      "points": 1,      "story_text": "Italwaysbuggedmethatyoucouldn&#x27;tjustsimplyenterazipcode.",      "comment_text": null,      "num_comments": 0,      "story_id": null,      "story_title": null,      "story_url": null,      "parent_id": null,      "created_at_i": 1400887180,      "_tags": [        "story",        "author_rescue_tarin",        "story_7791909"      ],      "objectID": "7791909",      "_highlightResult": {        "title": {          "value": "ShopforlocalfoodonGoodEggs…byzipcode",          "matchLevel": "none",          "matchedWords": []        },        "url": {          "value": "http: //www.goodeggs.me/",          "matchLevel": "none",          "matchedWords": []        },        "author": {          "value": "rescue_tarin",          "matchLevel": "none",          "matchedWords": []        },        "story_text": {          "value": "Italwaysbuggedmethatyoucouldn&#x27;tjustsimplyenterazipcode.",          "matchLevel": "none",          "matchedWords": []        }      }    },    {      "created_at": "2014-05-23T23: 17: 34Z",      "title": "RustforC++ProgrammersPart7: DataTypes",      "url": "http: //featherweightmusings.blogspot.com/2014/05/rust-for-c-programmers-part-7-data-types.html",      "author": "ihnorton",      "points": 52,      "story_text": "",      "comment_text": null,      "num_comments": 20,      "story_id": null,      "story_title": null,      "story_url": null,      "parent_id": null,      "created_at_i": 1400887054,      "_tags": [        "story",        "author_ihnorton",        "story_7791900"      ],      "objectID": "7791900",      "_highlightResult": {        "title": {          "value": "RustforC++ProgrammersPart7: DataTypes",          "matchLevel": "none",          "matchedWords": []        },        "url": {          "value": "http: //featherweightmusings.blogspot.com/2014/05/rust-for-c-programmers-part-7-data-types.html",          "matchLevel": "none",          "matchedWords": []        },        "author": {          "value": "ihnorton",          "matchLevel": "none",          "matchedWords": []        },        "story_text": {          "value": "",          "matchLevel": "none",          "matchedWords": []        }      }    },    {      "created_at": "2014-05-23T23: 13: 47Z",      "title": "BigDataandMachineLearninginCatastropheModeling: DagLohmannInterview",      "url": "http: //www.datascienceweekly.org/blog/21-big-data-machine-learning-influencing-catastrophe-modeling-dag-lohmann-interview",      "author": "hrb1979",      "points": 1,      "story_text": "",      "comment_text": null,      "num_comments": 0,      "story_id": null,      "story_title": null,      "story_url": null,      "parent_id": null,      "created_at_i": 1400886827,      "_tags": [        "story",        "author_hrb1979",        "story_7791889"      ],      "objectID": "7791889",      "_highlightResult": {        "title": {          "value": "BigDataandMachineLearninginCatastropheModeling: DagLohmannInterview",          "matchLevel": "none",          "matchedWords": []        },        "url": {          "value": "http: //www.datascienceweekly.org/blog/21-big-data-machine-learning-influencing-catastrophe-modeling-dag-lohmann-interview",          "matchLevel": "none",          "matchedWords": []        },        "author": {          "value": "hrb1979",          "matchLevel": "none",          "matchedWords": []        },        "story_text": {          "value": "",          "matchLevel": "none",          "matchedWords": []        }      }    },    {      "created_at": "2014-05-23T23: 12: 01Z",      "title": "F#–DiscountCodeforC#Developers",      "url": "http: //blog.jaywayco.co.uk/?p=179",      "author": "copx",      "points": 2,      "story_text": "",      "comment_text": null,      "num_comments": 0,      "story_id": null,      "story_title": null,      "story_url": null,      "parent_id": null,      "created_at_i": 1400886721,      "_tags": [        "story",        "author_copx",        "story_7791883"      ],      "objectID": "7791883",      "_highlightResult": {        "title": {          "value": "F#–DiscountCodeforC#Developers",          "matchLevel": "none",          "matchedWords": []        },        "url": {          "value": "http: //blog.jaywayco.co.uk/?p=179",          "matchLevel": "none",          "matchedWords": []        },        "author": {          "value": "copx",          "matchLevel": "none",          "matchedWords": []        },        "story_text": {          "value": "",          "matchLevel": "none",          "matchedWords": []        }      }    },    {      "created_at": "2014-05-23T23: 10: 46Z",      "title": "ChromebookEffect: MicrosoftAnnouncesCheaperVersionofWindowsforOEMs",      "url": "http: //browsernative.com/windows-with-bing-247/",      "author": "twapi",      "points": 1,      "story_text": null,      "comment_text": null,      "num_comments": 0,      "story_id": null,      "story_title": null,      "story_url": null,      "parent_id": null,      "created_at_i": 1400886646,      "_tags": [        "story",        "author_twapi",        "story_7791881"      ],      "objectID": "7791881",      "_highlightResult": {        "title": {          "value": "ChromebookEffect: MicrosoftAnnouncesCheaperVersionofWindowsforOEMs",          "matchLevel": "none",          "matchedWords": []        },        "url": {          "value": "http: //browsernative.com/windows-with-bing-247/",          "matchLevel": "none",          "matchedWords": []        },        "author": {          "value": "twapi",          "matchLevel": "none",          "matchedWords": []        }      }    },    {      "created_at": "2014-05-23T23: 09: 16Z",      "title": "FiveThingsHolding-UpThe‘Apple-BeatsDeal’",      "url": "http: //www.billboard.com/biz/articles/news/digital-and-mobile/6099227/five-things-apple-beats-deal",      "author": "rajbala",      "points": 3,      "story_text": null,      "comment_text": null,      "num_comments": 1,      "story_id": null,      "story_title": null,      "story_url": null,      "parent_id": null,      "created_at_i": 1400886556,      "_tags": [        "story",        "author_rajbala",        "story_7791873"      ],      "objectID": "7791873",      "_highlightResult": {        "title": {          "value": "FiveThingsHolding-UpThe‘Apple-BeatsDeal’",          "matchLevel": "none",          "matchedWords": []        },        "url": {          "value": "http: //www.billboard.com/biz/articles/news/digital-and-mobile/6099227/five-things-apple-beats-deal",          "matchLevel": "none",          "matchedWords": []        },        "author": {          "value": "rajbala",          "matchLevel": "none",          "matchedWords": []        }      }    },    {      "created_at": "2014-05-23T23: 06: 46Z",      "title": "AskHN: meetupsinSoCalandLA?",      "url": "",      "author": "nnd",      "points": 1,      "story_text": "Hithere,
+		<p>I&#x27;mafounderandadeveloperworkingonamobiletravelstartup,
+		currentlyinLAarea.<p>Couldyouguysrecommendmesomeworthwhilelocalnetworkingeventsormeetupgroups?",      "comment_text": null,      "num_comments": 0,      "story_id": null,      "story_title": null,      "story_url": null,      "parent_id": null,      "created_at_i": 1400886406,      "_tags": [        "story",        "author_nnd",        "story_7791868",        "ask_hn"      ],      "objectID": "7791868",      "_highlightResult": {        "title": {          "value": "AskHN: meetupsinSoCalandLA?",          "matchLevel": "none",          "matchedWords": []        },        "url": {          "value": "",          "matchLevel": "none",          "matchedWords": []        },        "author": {          "value": "nnd",          "matchLevel": "none",          "matchedWords": []        },        "story_text": {          "value": "Hithere,
+		<p>I&#x27;mafounderandadeveloperworkingonamobiletravelstartup,
+		currentlyinLAarea.<p>Couldyouguysrecommendmesomeworthwhilelocalnetworkingeventsormeetupgroups?",          "matchLevel": "none",          "matchedWords": []        }      }    },    {      "created_at": "2014-05-23T23: 01: 42Z",      "title": "Amazon’sTacticsConfirmItsCritics’WorstSuspicions",      "url": "http: //bits.blogs.nytimes.com/2014/05/23/amazons-tactics-confirm-its-critics-worst-suspicions/",      "author": "panarky",      "points": 13,      "story_text": "",      "comment_text": null,      "num_comments": 15,      "story_id": null,      "story_title": null,      "story_url": null,      "parent_id": null,      "created_at_i": 1400886102,      "_tags": [        "story",        "author_panarky",        "story_7791849"      ],      "objectID": "7791849",      "_highlightResult": {        "title": {          "value": "Amazon’sTacticsConfirmItsCritics’WorstSuspicions",          "matchLevel": "none",          "matchedWords": []        },        "url": {          "value": "http: //bits.blogs.nytimes.com/2014/05/23/amazons-tactics-confirm-its-critics-worst-suspicions/",          "matchLevel": "none",          "matchedWords": []        },        "author": {          "value": "panarky",          "matchLevel": "none",          "matchedWords": []        },        "story_text": {          "value": "",          "matchLevel": "none",          "matchedWords": []        }      }    }  ],  "nbHits": 631966,  "page": 0,  "nbPages": 10,  "hitsPerPage": 100,  "processingTimeMS": 13,  "query": "",  "params": "advancedSyntax=true&analytics=false&hitsPerPage=100&numericFilters=created_at_i%3C1400914589&tags=story"
+	}
