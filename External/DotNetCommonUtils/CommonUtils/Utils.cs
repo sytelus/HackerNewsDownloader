@@ -254,7 +254,7 @@ namespace CommonUtils
             return dictionary;
         }
 
-        private readonly static Dictionary<Type, DataContractJsonSerializer> dictionaryDataContractJsonSerializers =
+        private readonly static Dictionary<Type, DataContractJsonSerializer> dictionaryDataContractJsonSerializers = 
             new Dictionary<Type, DataContractJsonSerializer>()
                 {
                     {typeof(IEnumerable<KeyValuePair<string, string>>), new DataContractJsonSerializer(typeof(IEnumerable<KeyValuePair<string, string>>))},
@@ -294,7 +294,7 @@ namespace CommonUtils
             using (var reader = new StringReader(xmlString))
             {
                 var serializer = new System.Xml.Serialization.XmlSerializer(typeof(T));
-                return (T)serializer.Deserialize(reader);
+                return (T) serializer.Deserialize(reader);
             }
         }
 
@@ -465,7 +465,7 @@ namespace CommonUtils
 
             var intersectCount = smallerValueTerms.Count(smallerValueTerm => largerValueTerms.Contains(smallerValueTerm));
 
-            return intersectCount / (double)(value1Terms.Count + value2Terms.Count - intersectCount);
+            return intersectCount / (double) (value1Terms.Count + value2Terms.Count - intersectCount);
         }
 
         public static double GetDiceSimilarity(HashSet<string> value1Terms, HashSet<string> value2Terms)
@@ -515,7 +515,7 @@ namespace CommonUtils
 
         public static IEnumerable<T> SelectReverse<T>(this IList<T> source)
         {
-            for (var sourceIndex = source.Count - 1; sourceIndex >= 0; sourceIndex--)
+            for(var sourceIndex = source.Count - 1; sourceIndex >= 0; sourceIndex--)
                 yield return source[sourceIndex];
         }
 
@@ -533,7 +533,7 @@ namespace CommonUtils
             }
         }
 
-        public static TResult IfNotNullValue<TInput, TResult>(this TInput? input, Func<TInput, TResult> resultSelector, TResult resultIfNull) where TInput : struct
+        public static TResult IfNotNullValue<TInput, TResult>(this TInput? input, Func<TInput, TResult> resultSelector, TResult resultIfNull) where TInput : struct 
         {
             if (input == null)
                 return resultIfNull;
@@ -541,7 +541,7 @@ namespace CommonUtils
                 return resultSelector(input.Value);
         }
 
-        public static TResult IfNotNullValue<TInput, TResult>(this TInput? input, Func<TInput, TResult> resultSelector) where TInput : struct
+        public static TResult IfNotNullValue<TInput, TResult>(this TInput? input, Func<TInput, TResult> resultSelector) where TInput : struct 
         {
             return IfNotNullValue(input, resultSelector, default(TResult));
         }
@@ -563,12 +563,12 @@ namespace CommonUtils
         {
             if (list == null || list.Count == 0)
                 return defaultValue;
-            else
+            else 
                 return fn(list);
         }
 
 
-        public static TV MostOccuring<T, TV>(this IEnumerable<T> sequenceElements, Func<T, TV> selector)
+        public static TV MostOccuring<T,TV>(this IEnumerable<T> sequenceElements, Func<T, TV> selector)
         {
             var frequencies =
                 sequenceElements
@@ -607,7 +607,7 @@ namespace CommonUtils
         {
             var terms = new Dictionary<string, int>();
             foreach (var termKvp in GetTermsWithBufferedSingleLetters(content, filterSet))
-                terms[termKvp.Key] = termKvp.Value * positionMultiplier;
+                terms[termKvp.Key] = termKvp.Value*positionMultiplier;
 
             return terms;
         }
@@ -648,7 +648,7 @@ namespace CommonUtils
                 {
                     if (bufferedTerm.Length > 0)
                     {
-                        if (filterSet == null || !filterSet.Contains(bufferedTerm))
+                        if (filterSet==null || !filterSet.Contains(bufferedTerm))
                             yield return new KeyValuePair<string, int>(bufferedTerm, bufferedTermIndex);
 
                         bufferedTerm = String.Empty;
@@ -688,7 +688,7 @@ namespace CommonUtils
         {
             if (!string.IsNullOrEmpty(line))
             {
-                var columnValue = new StringBuilder();
+                var columnValue = new StringBuilder();   
                 var state = CsvParserState.ValueStart;
                 var errorMessage = (string)null;
                 var yieldValue = false;
@@ -824,7 +824,7 @@ namespace CommonUtils
 
             return existingCount;
         }
-        public static uint IncrementCountInDictionary<TKey>(this IDictionary<TKey, uint> dictionary, TKey key)
+        public static uint IncrementCountInDictionary<TKey>(this IDictionary<TKey, uint> dictionary, TKey key) 
         {
             uint existingCount = 0;
             if (dictionary.TryGetValue(key, out existingCount))
@@ -920,7 +920,7 @@ namespace CommonUtils
         }
         public static T[] AsArray<T>(this T value)
         {
-            return new T[] { value };
+            return new T[] {value};
         }
         public static IEnumerable<T> AsEnumerable<T>(params T[] values)
         {
@@ -933,7 +933,7 @@ namespace CommonUtils
             return AsEnumerable(values).Where(value => !ignoreNull || (value != null));
         }
 
-        public static bool Overlaps<T>(this IList<T> list1, IList<T> list2) where T : IEquatable<T>
+        public static bool Overlaps<T>(this IList<T> list1, IList<T> list2) where T:IEquatable<T>
         {
             if (list1.Count < 2 || list2.Count < 2 || (list1.Count * list2.Count < 16))
             {
@@ -941,7 +941,7 @@ namespace CommonUtils
                 {
                     foreach (var element2 in list2)
                     {
-                        if (EqualityComparer<T>.Default.Equals(element1, element2))
+                        if (EqualityComparer<T>.Default.Equals(element1, element2)) 
                             return true;
                     }
                 }
@@ -988,7 +988,7 @@ namespace CommonUtils
             var x = 69.1 * (latitude2 - latitude1);
             var y = 69.1 * (longitude2 - longitude1) * Math.Cos(latitude1 / 57.3);
 
-            return Math.Sqrt(x * x + y * y);
+            return Math.Sqrt(x * x + y * y);            
         }
 
         public static bool IsTrueOrNull(this bool? bn)
@@ -1054,26 +1054,26 @@ namespace CommonUtils
                 return string.Equals(s1, s2, compareMode);
         }
 
-        public static IEnumerable<string> GetXElementText(this XElement element)
-        {
-            return element.Nodes().OfType<XText>().Select(t => t.Value);
-        }
-        public static string GetInnerXml(this XElement element)
-        {
-            using (var reader = element.CreateReader())
-            {
-                reader.MoveToContent();
-                return reader.ReadInnerXml();
-            }
-        }
-        public static string GetOuterXml(this XElement element)
-        {
-            using (var reader = element.CreateReader())
-            {
-                reader.MoveToContent();
-                return reader.ReadOuterXml();
-            }
-        }
+		public static IEnumerable<string> GetXElementText(this XElement element)
+		{
+			return element.Nodes().OfType<XText>().Select(t => t.Value);
+		}
+		public static string GetInnerXml(this XElement element)
+		{
+			using (var reader = element.CreateReader())
+			{
+				reader.MoveToContent();
+				return reader.ReadInnerXml();
+			}
+		}
+		public static string GetOuterXml(this XElement element)
+		{
+			using (var reader = element.CreateReader())
+			{
+				reader.MoveToContent();
+				return reader.ReadOuterXml();
+			}
+		}
 
         /// <summary>
         /// Retrieve element of node specified by path
@@ -1191,7 +1191,7 @@ namespace CommonUtils
         {
             if (!String.IsNullOrEmpty(input))
                 return UnicodeAsciiCharacterMap.GetMappedCharacters(input);
-            else
+            else 
                 return input;
         }
 
@@ -1250,7 +1250,7 @@ namespace CommonUtils
 
         public static void DebugBreakIfEqual<T>(T value1Source, T value1Target, T value2Source, T value2Target) where T : IComparable<T>
         {
-            if (value1Source.CompareTo(value1Target) == 0 || value1Source.CompareTo(value2Target) == 0
+            if (value1Source.CompareTo(value1Target) == 0 || value1Source.CompareTo(value2Target) == 0 
                 || value2Source.CompareTo(value1Target) == 0 || value2Source.CompareTo(value2Target) == 0)
             {
                 Console.Beep();
@@ -1369,7 +1369,7 @@ namespace CommonUtils
         {
             var rightTokens = rightTokensSet.OrderBy(kvp => kvp.Value).Select(kvp => kvp.Key).ToArray();
 
-            for (var rightTokenIndex = 1; rightTokenIndex < rightTokens.Length; rightTokenIndex++)
+            for(var rightTokenIndex = 1; rightTokenIndex < rightTokens.Length; rightTokenIndex++)
             {
                 var bigram = String.Concat(rightTokens[rightTokenIndex - 1], rightTokens[rightTokenIndex]);
                 string trigram = null;
@@ -1384,16 +1384,16 @@ namespace CommonUtils
                     if (trigramFound)
                     {
                         leftTokensSet.Remove(trigram);
-                        leftTokensSet[rightTokens[rightTokenIndex - 2]] = leftTokenIndex;
-                        leftTokensSet[rightTokens[rightTokenIndex - 1]] = leftTokenIndex + 1;
+                        leftTokensSet[rightTokens[rightTokenIndex-2]] = leftTokenIndex;
+                        leftTokensSet[rightTokens[rightTokenIndex-1]] = leftTokenIndex + 1;
                         leftTokensSet[rightTokens[rightTokenIndex]] = leftTokenIndex + 2;
                     }
                 }
-
+                    
                 if (!trigramFound && leftTokensSet.TryGetValue(bigram, out leftTokenIndex))
                 {
                     leftTokensSet.Remove(bigram);
-                    leftTokensSet[rightTokens[rightTokenIndex - 1]] = leftTokenIndex;
+                    leftTokensSet[rightTokens[rightTokenIndex-1]] = leftTokenIndex;
                     leftTokensSet[rightTokens[rightTokenIndex]] = leftTokenIndex + 1;
                 }
             }
@@ -1404,10 +1404,10 @@ namespace CommonUtils
         /// </summary>
         public static bool IsStringArrayEqual(string[] array1, string[] array2, bool ignoreAnyNullOrEmptyValue)
         {
-            for (var arrayIndex = 0; arrayIndex < array1.Length; arrayIndex++)
+            for(var arrayIndex = 0; arrayIndex < array1.Length; arrayIndex++)
             {
                 if (array1[arrayIndex] == array2[arrayIndex] ||
-                    (ignoreAnyNullOrEmptyValue && (String.IsNullOrEmpty(array1[arrayIndex]) || String.IsNullOrEmpty(array2[arrayIndex])))
+                    (ignoreAnyNullOrEmptyValue && (String.IsNullOrEmpty(array1[arrayIndex]) ||  String.IsNullOrEmpty(array2[arrayIndex])))
                    )
                     continue;
                 else
@@ -1547,7 +1547,7 @@ namespace CommonUtils
                 var isAdded = set.Add(element);
                 if (!isAdded && !allowDuplicates)
                     throw new ArgumentException("Attempto add duplicate elements when duplicates were not expected");
-            }
+            }            
         }
 
         public static void AddRange<T>(this ICollection<T> collection, IEnumerable<T> elementsToAdd)
@@ -1599,7 +1599,7 @@ namespace CommonUtils
             {
                 foreach (var item in sequence)
                 {
-                    if (hashSet == null)
+                    if (hashSet == null) 
                         hashSet = new HashSet<T>();
 
                     hashSet.Add(item);
@@ -1607,7 +1607,7 @@ namespace CommonUtils
             }
 
             if (trimExcess && hashSet != null)
-                hashSet.TrimExcess();
+                hashSet.TrimExcess(); 
 
             return hashSet;
         }
@@ -1623,7 +1623,7 @@ namespace CommonUtils
         }
 
         public const string IntMinValueAsString = "-2147483648";
-        public const string IntMaxValueAsString = "2147483647";
+        public const string IntMaxValueAsString =  "2147483647";
 
         public static SortedList<TKey, TValue> ToSortedList<TItem, TKey, TValue>(this IEnumerable<TItem> items, Func<TItem, TKey> getKey, Func<TItem, TValue> getValue, bool trimExcess)
         {
@@ -1650,7 +1650,7 @@ namespace CommonUtils
             return DateTime.ParseExact(jsonDate, @"yyyy-MM-ddTHH:mm:ssK", CultureInfo.InvariantCulture);
         }
 
-        public static void AddToDictionarySet<TKeyType, TValueType, TCollectionType>(this IDictionary<TKeyType, TCollectionType> dictionary, TKeyType key, TValueType valueToAdd) where TCollectionType : ICollection<TValueType>, new()
+        public static void AddToDictionarySet<TKeyType, TValueType, TCollectionType>(this IDictionary<TKeyType, TCollectionType> dictionary, TKeyType key, TValueType valueToAdd) where TCollectionType:ICollection<TValueType>, new()
         {
             TCollectionType existingValue;
             if (!dictionary.TryGetValue(key, out existingValue))
@@ -1717,7 +1717,7 @@ namespace CommonUtils
             return TimeZones.AbbreviationsMap[timeZoneAbbreviation.ToUpperInvariant()];
         }
 
-        public static T DeserializeFromJson<T>(DataContractJsonSerializer serializer, string jsonToDeserialize)
+        public static T DeserializeFromJson<T>(DataContractJsonSerializer serializer, string jsonToDeserialize)  
         {
             if (String.IsNullOrEmpty(jsonToDeserialize))
                 return default(T);
@@ -1734,7 +1734,7 @@ namespace CommonUtils
                     buffer.Flush();
 
                     buffer.Position = 0;
-                    var deserializedObject = (T)serializer.ReadObject(buffer);
+                    var deserializedObject = (T) serializer.ReadObject(buffer);
 
                     return deserializedObject;
                 }
@@ -2020,7 +2020,7 @@ namespace CommonUtils
                 throw new ArgumentOutOfRangeException(String.Format("intValue is expected to be either 0 or 1 but it's {0}", intValue));
         }
 
-        public static bool AddIfNotExist<TKey, TValue>(this IDictionary<TKey, TValue> dictionary, TKey key, TValue value, bool updateExistingValue = false, IComparer<TValue> valueComparer = null)
+        public static bool AddIfNotExist<TKey,TValue>(this IDictionary<TKey, TValue> dictionary, TKey key, TValue value, bool updateExistingValue = false, IComparer<TValue> valueComparer = null)
         {
             TValue existingValue;
             var exist = dictionary.TryGetValue(key, out existingValue);
@@ -2031,7 +2031,7 @@ namespace CommonUtils
             {
                 var updateRequired = valueComparer == null || valueComparer.Compare(existingValue, value) != 0;
                 if (updateRequired)
-                    dictionary[key] = value;
+                    dictionary[key] = value;    
             }
 
             return exist;
@@ -2050,7 +2050,7 @@ namespace CommonUtils
             return existingValue;
         }
 
-        public readonly static string[] EmptyStringArray = new string[] { };
+        public readonly static string[] EmptyStringArray = new string[]{};
 
         public static void Exchange<T>(IList<T> items, int index1, int index2)
         {
@@ -2074,7 +2074,7 @@ namespace CommonUtils
 
         public static T[] ScalerToArray<T>(this T obj)
         {
-            return new T[] { obj };
+            return new T[] {obj};
         }
 
         public static float Square(float number)
@@ -2087,7 +2087,7 @@ namespace CommonUtils
         }
         public static double Square(double number)
         {
-            return number * number;
+            return number*number;
         }
 
         /// <summary>
@@ -2286,13 +2286,13 @@ namespace CommonUtils
         public static void Shuffle<T>(this IList<T> list, int randomSeed)
         {
             var rnd = new Random(randomSeed);
-            for (var i = list.Count - 1; i > 0; i--)
+            for(var i = list.Count - 1; i > 0; i--)
                 Swap(list, rnd.Next(i + 1), i);
         }
 
         public static IEnumerable<T> Slice<T>(this T[] source, int start, int end)
         {
-            for (var index = start; index <= end && index < source.Length && start >= 0; index++)
+            for(var index = start; index <= end && index < source.Length && start >= 0; index++)
                 yield return source[index];
         }
 
@@ -2489,6 +2489,18 @@ namespace CommonUtils
                 mapLink.Append(" to:{0}".FormatEx(HttpUtility.UrlEncode(addresses[i])));
 
             return mapLink.ToString();
+        }
+
+        public static void InitializeArrayElement<T>(T[,] vectors, T initialValue)
+        {
+            for (var i = 0; i < vectors.GetLength(0); i++)
+                for (var j = 0; j < vectors.GetLength(1); j++)
+                    vectors[i, j] = initialValue;
+        }
+        public static void InitializeArrayElement<T>(IList<T> vector, T initialValue)
+        {
+            for (var i = 0; i < vector.Count; i++)
+                vector[i] = initialValue;
         }
     }
 }
