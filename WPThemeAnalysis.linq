@@ -3,7 +3,7 @@
   <Namespace>CommonUtils</Namespace>
 </Query>
 
-var dates = File.ReadLines(@"C:\temp\WPUrlStats.tsv")
+var dates = File.ReadLines(@"C:\temp\WPUrlAnalysis.txt")
 .Select(line => line.Split('\t')) 
 .Where(cols => cols.Length == 9)
 .SelectMany(cols => Utils.AsEnumerable(long.Parse(cols[7]), long.Parse(cols[8])))
@@ -13,7 +13,7 @@ var minDate = dates.Min();
 var maxDate = dates.Max();
 var deltaDate = maxDate - minDate;
 
-var unranked = File.ReadLines(@"C:\temp\WPUrlStats.tsv")
+var unranked = File.ReadLines(@"C:\temp\WPUrlAnalysis.txt")
 .Select(line => line.Split('\t')) 
 .Where(cols => cols.Length == 9)
 //.Dump()
@@ -45,10 +45,10 @@ var maxExplicitBlogCount = unranked.Max(t => t.ExplicitBlogCount) + 1.0;
 unranked
 .Where(t => t.HostCount > 2 && t.RelativeDateMax > 0.85)
 .Select(u => new {Data = u, NormalizedWeight = ((u.AvgStoryPointsWeighted + u.AvgStoryCommentsWeighted*3) - minWeight) / deltaWeight})
-.Select(u => new {Data = u.Data, Rank = u.NormalizedWeight + ((u.Data.ExplicitBlogCount + 1.0)/maxExplicitBlogCount) + 2*u.Data.RelativeDateMax - (1 - u.Data.RelativeDateMin)})
+.Select(u => new {Data = u.Data, Rank = u.NormalizedWeight + ((u.Data.ExplicitBlogCount + 1.0)/(maxExplicitBlogCount+1)) + 2*u.Data.RelativeDateMax})
 //.Count()
 .OrderByDescending(u => u.Rank)
-//.OrderByDescending(t => t.ExplicitBlogCount)
-.Select((r,i) => Tuple.Create(r.Data, r.Rank, i))
-.Where(t => t.Item1.Theme == "omega" || t.Item1.Theme == "able" || t.Item1.Theme == "decode" || t.Item1.Theme == "ryu" || t.Item3 < 5)
+.Select(u => u.Data)
+//.Select((r,i) => Tuple.Create(r.Data, r.Rank, i))
+//.Where(t => t.Item1.Theme == "omega" || t.Item1.Theme == "able" || t.Item1.Theme == "decode" || t.Item1.Theme == "ryu" || t.Item3 < 5)
 .Dump();

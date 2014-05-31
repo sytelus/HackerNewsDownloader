@@ -34,12 +34,17 @@ namespace HackerNewsDownloader
         Stopwatch sw = new Stopwatch();
         private void buttonFetch_Click(object sender, EventArgs e)
         {
+            SaveHnItems("story", textBoxStoriesFilePath.Text, this.UpdateProgress);
+        }
+
+        private void SaveHnItems(string itemType, string filePath, Action<JObject, long> progress)
+        {
             sw.Start();
 
-            var stories = GetHnStoryItems();
+            var stories = GetHnItems(itemType);
 
-            using (var saveFile = File.CreateText(textBoxStoriesFilePath.Text))
-                JsonNetUtils.SerializeSequenceToJson(stories, saveFile, this.UpdateProgress);
+            using (var saveFile = File.CreateText(filePath))
+                JsonNetUtils.SerializeSequenceToJson(stories, saveFile, progress);
 
             sw.Stop();
         }
@@ -50,9 +55,9 @@ namespace HackerNewsDownloader
             labelTimeElapsed.Text = sw.Elapsed.TotalSeconds.ToStringInvariant();
         }
 
-        private static IEnumerable<JObject> GetHnStoryItems()
+        private static IEnumerable<JObject> GetHnItems(string itemType)
         {
-            const string baseUrl = @"https://hn.algolia.com/api/v1/search_by_date?tags=story&hitsPerPage={0}&numericFilters=created_at_i<{1}";
+            const string baseUrl = @"https://hn.algolia.com/api/v1/search_by_date?tags={2}&hitsPerPage={0}&numericFilters=created_at_i<{1}";
             var restClient = new RestClient();
             var offset = DateTime.UtcNow.ToUnixTime();
             var limit = 1000;
@@ -60,7 +65,7 @@ namespace HackerNewsDownloader
             var hitCount = 0;
             do
             {
-                var request = new RestRequest(baseUrl.FormatEx(limit, offset), Method.GET);
+                var request = new RestRequest(baseUrl.FormatEx(limit, offset, itemType), Method.GET);
 
                 var response = restClient.Execute(request);
                 if (response.StatusCode == HttpStatusCode.OK)
@@ -133,6 +138,8 @@ namespace HackerNewsDownloader
                     if (string.IsNullOrWhiteSpace(urlStatsKvp.Value.ThemeNames) && string.IsNullOrWhiteSpace(urlStatsKvp.Value.PluginNames))
                         continue;
 
+                    //Tab seperated Column Header
+                    //Host	URLSample	PointsSum	ThemeNames	PluginNames	StoryCount	CommentsSum	MaxDate	MinDate
                     var values = new string[] {urlStatsKvp.Key, urlStatsKvp.Value.Url, urlStatsKvp.Value.PointsSum.ToStringInvariant(), 
                         urlStatsKvp.Value.ThemeNames, urlStatsKvp.Value.PluginNames,
                         urlStatsKvp.Value.StoryCount.ToStringInvariant(), urlStatsKvp.Value.CommentsSum.ToStringInvariant(), 
@@ -150,6 +157,31 @@ namespace HackerNewsDownloader
             var testStats = StoryUrlStats.Create("http://www.ShitalShah.com");
             WpAnalyzer.AnalyzeWordPressUrl(testStats);
             MessageBox.Show("Themes: {0}, Plugins: {1}".FormatEx(testStats.ThemeNames, testStats.PluginNames));
+        }
+
+        private void buttonFetchComents_Click(object sender, EventArgs e)
+        {
+            SaveHnItems("comment", textBoxCommentsFilePath.Text, this.UpdateProgress);
+        }
+
+        private void buttongetStats_Click(object sender, EventArgs e)
+        {
+            foreach(var filePath in new[]{textBoxStoriesFilePath.Text, textBoxCommentsFilePath.Text})
+            {
+                var createDatesUnix = JsonNetUtils.DeserializeSequenceFromJson<JObject>(filePath)
+                    .SelectMany(responseJson => responseJson["hits"])
+                    .Select(hitJson => hitJson["created_at_i"].Value<long>());
+
+                long minDateUnix = long.MaxValue, maxDateUnix = long.MinValue, count = 0;
+                foreach(var createDateUnix in createDatesUnix)
+                {
+                    minDateUnix = Math.Min(minDateUnix, createDateUnix);
+                    maxDateUnix = Math.Max(maxDateUnix, createDateUnix);
+                    count++;
+                }
+
+                MessageBox.Show("{3}\n{0} items from {1} to {2}".FormatEx(count, Utils.FromUnixTime(minDateUnix).ToString("r"), Utils.FromUnixTime(maxDateUnix).ToString("r"), filePath));
+            }
         }
 
     }

@@ -39,6 +39,10 @@
             this.label4 = new System.Windows.Forms.Label();
             this.labelrequestCount = new System.Windows.Forms.Label();
             this.labelTimeElapsed = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBoxCommentsFilePath = new System.Windows.Forms.TextBox();
+            this.buttonFetchComents = new System.Windows.Forms.Button();
+            this.buttongetStats = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // buttonFetch
@@ -63,9 +67,9 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(535, 328);
+            this.button4.Location = new System.Drawing.Point(539, 291);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(175, 57);
+            this.button4.Size = new System.Drawing.Size(175, 30);
             this.button4.TabIndex = 3;
             this.button4.Text = "Test RegEx";
             this.button4.UseVisualStyleBackColor = true;
@@ -141,11 +145,52 @@
             this.labelTimeElapsed.TabIndex = 10;
             this.labelTimeElapsed.Text = "                          ";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(316, 12);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(63, 13);
+            this.label3.TabIndex = 14;
+            this.label3.Text = "Save to file:";
+            // 
+            // textBoxCommentsFilePath
+            // 
+            this.textBoxCommentsFilePath.Location = new System.Drawing.Point(377, 12);
+            this.textBoxCommentsFilePath.Name = "textBoxCommentsFilePath";
+            this.textBoxCommentsFilePath.Size = new System.Drawing.Size(138, 20);
+            this.textBoxCommentsFilePath.TabIndex = 13;
+            this.textBoxCommentsFilePath.Text = "c:\\temp\\HNCommentsAll.json";
+            // 
+            // buttonFetchComents
+            // 
+            this.buttonFetchComents.Location = new System.Drawing.Point(377, 38);
+            this.buttonFetchComents.Name = "buttonFetchComents";
+            this.buttonFetchComents.Size = new System.Drawing.Size(138, 23);
+            this.buttonFetchComents.TabIndex = 12;
+            this.buttonFetchComents.Text = "Fetch HN Comments";
+            this.buttonFetchComents.UseVisualStyleBackColor = true;
+            this.buttonFetchComents.Click += new System.EventHandler(this.buttonFetchComents_Click);
+            // 
+            // buttongetStats
+            // 
+            this.buttongetStats.Location = new System.Drawing.Point(539, 327);
+            this.buttongetStats.Name = "buttongetStats";
+            this.buttongetStats.Size = new System.Drawing.Size(175, 32);
+            this.buttongetStats.TabIndex = 15;
+            this.buttongetStats.Text = "Get Stats";
+            this.buttongetStats.UseVisualStyleBackColor = true;
+            this.buttongetStats.Click += new System.EventHandler(this.buttongetStats_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(746, 427);
+            this.Controls.Add(this.buttongetStats);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.textBoxCommentsFilePath);
+            this.Controls.Add(this.buttonFetchComents);
             this.Controls.Add(this.labelrequestCount);
             this.Controls.Add(this.labelTimeElapsed);
             this.Controls.Add(this.label4);
@@ -178,6 +223,10 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label labelrequestCount;
         private System.Windows.Forms.Label labelTimeElapsed;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBoxCommentsFilePath;
+        private System.Windows.Forms.Button buttonFetchComents;
+        private System.Windows.Forms.Button buttongetStats;
     }
 }
 
