@@ -7,6 +7,7 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Reflection;
+using System.Runtime.CompilerServices;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Runtime.Serialization.Json;
@@ -525,6 +526,12 @@ namespace CommonUtils
                 for (var sourceIndex2 = sourceIndex1 + 1; sourceIndex2 < source.Count; sourceIndex2++)
                     yield return new KeyValuePair<T, T>(source[sourceIndex1], source[sourceIndex2]);
         }
+        public static IEnumerable<KeyValuePair<T, T>> SelectPairs<T>(this IList<T> source, IList<T> other)
+        {
+            for (var sourceIndex1 = 0; sourceIndex1 < source.Count; sourceIndex1++)
+                for (var sourceIndex2 = 0; sourceIndex2 < other.Count; sourceIndex2++)
+                    yield return new KeyValuePair<T, T>(source[sourceIndex1], other[sourceIndex2]);
+        }
 
         public static void ToVoid<T>(this IEnumerable<T> sequence)
         {
@@ -803,16 +810,18 @@ namespace CommonUtils
             }
         }
 
-        public static readonly char[] TabDelimiter = new char[] { '\t' };
-        public static readonly char[] UnderscoreDelimiter = new char[] { '_' };
-        public static readonly char[] CommaDelimiter = new char[] { ',' };
-        public static readonly char[] SemiColonDelimiter = new char[] { ';' };
-        public static readonly char[] SpaceDelimiter = new char[] { ' ' };
-        public static readonly char[] TildaDelimiter = new char[] { '~' };
-        public static readonly char[] DotDelimiter = new char[] { '.' };
-        public static readonly char[] PipeDelimiter = new char[] { '|' };
-        public static readonly char[] ColonDelimiter = new char[] { ':' };
+        public static readonly char[] ColonDelimiter = new[] { ':' };
+        public static readonly char[] CommaDelimiter = new[] { ',' };
+        public static readonly char[] DotDelimiter = new[] { '.' };
+        public static readonly char[] PipeDelimiter = new[] { '|' };
+        public static readonly char[] SemiColonDelimiter = new[] { ';' };
+        public static readonly char[] SpaceDelimiter = new[] { ' ' };
+        public static readonly char[] TabDelimiter = new[] { '\t' };
+        public static readonly char[] TildaDelimiter = new[] { '~' };
+        public static readonly char[] UnderscoreDelimiter = new[] { '_' };
+
         public static readonly string CommaDelimiterString = ",";
+        public static readonly string TildaDelimiterString = "~";
 
         public static int IncrementCountInDictionary<TKey>(this IDictionary<TKey, int> dictionary, TKey key)
         {
@@ -834,6 +843,7 @@ namespace CommonUtils
 
             return existingCount;
         }
+
         public static void IncrementCountInDictionary<TKey>(this IDictionary<TKey, float> dictionary, TKey key)
         {
             float existingCount;
@@ -1054,26 +1064,26 @@ namespace CommonUtils
                 return string.Equals(s1, s2, compareMode);
         }
 
-		public static IEnumerable<string> GetXElementText(this XElement element)
-		{
-			return element.Nodes().OfType<XText>().Select(t => t.Value);
-		}
-		public static string GetInnerXml(this XElement element)
-		{
-			using (var reader = element.CreateReader())
-			{
-				reader.MoveToContent();
-				return reader.ReadInnerXml();
-			}
-		}
-		public static string GetOuterXml(this XElement element)
-		{
-			using (var reader = element.CreateReader())
-			{
-				reader.MoveToContent();
-				return reader.ReadOuterXml();
-			}
-		}
+        public static IEnumerable<string> GetXElementText(this XElement element)
+        {
+            return element.Nodes().OfType<XText>().Select(t => t.Value);
+        }
+        public static string GetInnerXml(this XElement element)
+        {
+            using (var reader = element.CreateReader())
+            {
+                reader.MoveToContent();
+                return reader.ReadInnerXml();
+            }
+        }
+        public static string GetOuterXml(this XElement element)
+        {
+            using (var reader = element.CreateReader())
+            {
+                reader.MoveToContent();
+                return reader.ReadOuterXml();
+            }
+        }
 
         /// <summary>
         /// Retrieve element of node specified by path
@@ -1338,11 +1348,172 @@ namespace CommonUtils
             value1 = value2;
             value2 = temp;
         }
-        public static void Swap<T>(IList<T> list, int index1, int index2)
+
+        public static void Swap<T>(this IList<T> list, int i, int j)
         {
-            var temp = list[index1];
-            list[index1] = list[index2];
-            list[index2] = temp;
+            if (i==j)   //This check is not required but Partition function may make many calls so its for perf reason
+                return;
+            var temp = list[i];
+            list[i] = list[j];
+            list[j] = temp;
+        }
+
+        /// <summary>
+        /// Returns sample std dev of the sequence without multiple pass
+        /// </summary>
+        public static double StdDev<T>(this IEnumerable<T> list, Func<T, double> values)
+        {
+            var mean = 0.0;
+            var sum = 0.0;
+            var stdDev = 0.0;
+            var n = 0;
+            foreach (var value in list.Select(values))
+            {
+                n++;
+                var delta = value - mean;
+                mean += delta / n;
+                sum += delta * (value - mean);
+            }
+            if (1 < n)
+                stdDev = Math.Sqrt(sum / (n - 1));
+
+            return stdDev;
+        }
+
+        private static void PartitionTwo<T>(this IList<T> list, int start, int end, out int pivotLowIndex, out int pivotHighIndex, Random rnd = null) where T : IComparable<T>
+        {
+            if (list.Count <= 1)
+            {
+                pivotLowIndex = list.Count - 1; pivotHighIndex = pivotLowIndex;
+                return;
+            }
+
+            if (rnd != null)
+            {
+                list.Swap(start, rnd.Next(start + 1, end));
+                list.Swap(end, rnd.Next(start + 1, end));
+            }
+
+            if (list[start].CompareTo(list[end]) > 0)
+                list.Swap(start, end);
+
+            var pivotLow = list[start];
+            var pivotHigh = list[end];
+            pivotLowIndex = start;
+            pivotHighIndex = end;
+
+            var i = pivotLowIndex + 1;
+            while(i < pivotHighIndex)
+            {
+                if (list[i].CompareTo(pivotLow) <= 0)
+                    list.Swap(i, ++pivotLowIndex);
+                else if (list[i].CompareTo(pivotHigh) >= 0)
+                {
+                    list.Swap(i, --pivotHighIndex);
+                    i--;
+                }
+                i++;
+            }
+            list.Swap(start, pivotLowIndex);
+            list.Swap(end, pivotHighIndex);
+        }
+
+
+        /// <summary>
+        /// Partitions the given list around a pivot element such that all elements on left of pivot are <= pivot
+        /// and the ones at thr right are > pivot. This method can be used for sorting, N-order statistics such as
+        /// as median finding algorithms.
+        /// Pivot is selected ranodmly if random number generator is supplied else its selected as last element in the list.
+        /// Reference: Introduction to Algorithms 3rd Edition, Corman et al, pp 171
+        /// </summary>
+        private static int Partition<T>(this IList<T> list, int start, int end, Random rnd = null) where T : IComparable<T>
+        {
+            if (rnd != null)
+                list.Swap(end, rnd.Next(start, end));
+
+            var pivot = list[end];
+            var lastLow = start - 1;
+            for (var i = start; i < end; i++)
+            {
+                if (list[i].CompareTo(pivot) <= 0)
+                    list.Swap(i, ++lastLow);
+            }
+            list.Swap(end, ++lastLow);
+            return lastLow;
+        }
+
+        /// <summary>
+        /// Returns Nth smallest element from the list. Here n starts from 0 so that n=0 returns minimum, n=1 returns 2nd smallest element etc.
+        /// Note: specified list would be mutated in the process.
+        /// Reference: Introduction to Algorithms 3rd Edition, Corman et al, pp 216
+        /// </summary>
+        public static T NthOrderStatistic<T>(this IList<T> list, int n, Random rnd = null) where T : IComparable<T>
+        {
+            int start = 0, end = list.Count - 1;
+            while (true)
+            {
+                var pivotIndex = list.Partition(start, end, rnd);
+                if (pivotIndex == n)
+                    return list[pivotIndex];
+
+                if (n < pivotIndex)
+                    end = pivotIndex - 1;
+                else
+                    start = pivotIndex + 1;
+            }
+        }
+
+        /// <summary>
+        /// Note: specified list would be mutated in the process.
+        /// </summary>
+        public static T MedianLower<T>(this IList<T> list) where T : IComparable<T>
+        {
+            return list.NthOrderStatistic((list.Count - 1)/2);
+        }
+
+        public static double Median<T>(this IList<T> list, Func<T, double> getValue = null) where T : IComparable<T>
+        {
+            getValue = getValue ?? ((a) => Convert.ToDouble(a));
+            int start = 0, end = list.Count - 1;
+            int midLow = (list.Count - 1) / 2, midHigh = list.Count / 2;
+
+            while (true)
+            {
+                int pivotLowIndex, pivotHighIndex;
+                list.PartitionTwo(start, end, out pivotLowIndex, out pivotHighIndex);
+
+                //There are 8 cases for where two pivots would lie relative to two mids. One additional case is for when two mids are same.
+                if (midHigh < pivotLowIndex)
+                    end = pivotLowIndex - 1;
+                else if (midLow > pivotHighIndex)
+                    start = pivotHighIndex + 1;
+                else if (midLow > pivotLowIndex && midHigh < pivotHighIndex)
+                {
+                    start = pivotLowIndex + 1;
+                    end = pivotHighIndex - 1;
+                }
+                else if (midHigh == midLow)
+                    return pivotLowIndex == midLow ? getValue(list[pivotLowIndex]) : getValue(list[pivotHighIndex]);
+                else if (pivotLowIndex == midLow && pivotHighIndex == midHigh)
+                    return (getValue(list[pivotLowIndex]) + getValue(list[pivotHighIndex])) / 2.0;
+                else if (pivotHighIndex == midLow)
+                    start = pivotHighIndex;
+                else if (pivotHighIndex == midHigh)
+                {
+                    start = pivotLowIndex + 1;
+                    end = pivotHighIndex;
+                }
+                else if (pivotLowIndex == midLow)
+                {
+                    start = pivotLowIndex;
+                    end = pivotHighIndex - 1;
+                }
+                else if (pivotLowIndex == midHigh)
+                    end = pivotLowIndex;
+                else  //Case included if someone changes code later and messes up
+                    throw new Exception("Median algorithm error: Unhandled case for start {0}, end {1}, pivotLowIndex {2}, pivotHighIndex {3}, midLow {4}, midHigh {5}".FormatEx(
+                            start, end, pivotLowIndex, pivotHighIndex, midLow, midHigh));
+            }
         }
 
         public static bool SwapIfLeftIsLargerValue(ref string leftValue, ref string rightValue)
@@ -1662,6 +1833,32 @@ namespace CommonUtils
             existingValue.Add(valueToAdd);
         }
 
+        /// <summary>
+        /// Utility function for windowing a range. Let's say you have input array of length N
+        /// then a window over index i is range from i-w to i+w where w is length of the window.
+        /// If index falls off the array, we wrap it around (think of array as circular list).
+        /// </summary>
+        /// <param name="itemIndex">Index in list over with range is required</param>
+        /// <param name="itemCount">Number of items in the list</param>
+        /// <param name="windowLength">length of the window</param>
+        /// <returns></returns>
+        public static IEnumerable<int> WindowRange(int itemIndex, int itemCount, int windowLength)
+        {
+            for (var window = -windowLength; window <= windowLength; window++)
+            {
+                var windowIndex = itemIndex + window;
+                yield return windowIndex >= 0 && windowIndex < itemCount ? windowIndex :
+                    (windowIndex >= itemCount ? windowIndex % itemCount : itemCount + windowIndex);
+            }
+        }
+
+        public static IEnumerable<T> ConcatAll<T>(this IEnumerable<IEnumerable<T>> sequences)
+        {
+            foreach (var seq in sequences)
+                foreach (var item in seq)
+                    yield return item;
+        }
+
         public static Dictionary<TKey, TValue> ToDictionary<TKey, TValue>(this IEnumerable<KeyValuePair<TKey, TValue>> kvps)
         {
             var dict = new Dictionary<TKey, TValue>();
@@ -1681,8 +1878,12 @@ namespace CommonUtils
             }
             return dict;
         }
-
         public static string SerializeToJson<T>(DataContractJsonSerializer serializer, T objectToSerialize)
+        {
+            return Serialize(serializer, objectToSerialize);
+        }
+
+        internal static string Serialize<T>(XmlObjectSerializer serializer, T objectToSerialize)
         {
             MemoryStream buffer = null;
             try
@@ -1717,7 +1918,12 @@ namespace CommonUtils
             return TimeZones.AbbreviationsMap[timeZoneAbbreviation.ToUpperInvariant()];
         }
 
-        public static T DeserializeFromJson<T>(DataContractJsonSerializer serializer, string jsonToDeserialize)  
+        public static T DeserializeFromJson<T>(DataContractJsonSerializer serializer, string jsonToDeserialize)
+        {
+            return Deserialize<T>(serializer, jsonToDeserialize);
+        }
+
+        internal static T Deserialize<T>(XmlObjectSerializer serializer, string jsonToDeserialize)
         {
             if (String.IsNullOrEmpty(jsonToDeserialize))
                 return default(T);
@@ -2290,6 +2496,12 @@ namespace CommonUtils
                 Swap(list, rnd.Next(i + 1), i);
         }
 
+        public static void Shuffle<T>(this IList<T> list, Random rnd)
+        {
+            for(var i=0; i < list.Count; i++)
+                list.Swap(i, rnd.Next(i, list.Count));
+        }
+
         public static IEnumerable<T> Slice<T>(this T[] source, int start, int end)
         {
             for(var index = start; index <= end && index < source.Length && start >= 0; index++)
@@ -2366,11 +2578,7 @@ namespace CommonUtils
                 return Enumerable.Empty<KeyValuePair<TKey, TValue>>();
 
             if (set1.Count > set2.Count)
-            {
-                var temp = set1;
-                set1 = set2;
-                set2 = temp;
-            }
+                Swap(ref set1, ref set2);
 
             return set1.Where(kvp => set2.ContainsKey(kvp.Key));
         }
@@ -2502,6 +2710,40 @@ namespace CommonUtils
             for (var i = 0; i < vector.Count; i++)
                 vector[i] = initialValue;
         }
+
+        #region LogMessage infrastructure
+        //Default message logging only enabled in debug version of binaries
+#if DEBUG
+        public static bool EnableMessageLogging = true;
+#else
+        public static bool EnableMessageLogging = false;
+#endif
+
+        public static void LogMessage(string message, int severity = 100, int messageCode = -1, object data = null, object sender = null)
+        {
+
+            if (EnableMessageLogging && MessageLogged != null)
+                MessageLogged(sender, new LogMessageEventArgs(message, severity, messageCode, data));
+        }
+
+        public static event EventHandler<LogMessageEventArgs> MessageLogged;
+
+        public class LogMessageEventArgs : EventArgs
+        {
+            public string Message { get; private set; }
+            public int Severity { get; private set; }
+            public object Data { get; private set; }
+            public int MessageCode { get; private set; }
+
+            public LogMessageEventArgs(string message, int severity = 100, int messageCode = -1, object data = null)
+            {
+                this.Message = message;
+                this.MessageCode = messageCode;
+                this.Severity = severity;
+                this.Data = data;
+            }
+        }
+        #endregion
     }
 }
 

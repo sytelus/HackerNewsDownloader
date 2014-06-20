@@ -131,7 +131,7 @@ namespace HackerNewsDownloader
 
             Task.WaitAll(storyUrlsStats.Values.Select(s => s.AnalyzeWpTask).ToArray());
 
-            using (var urlStatsFile = File.CreateText(textBoxAnalysisFilePath.Text))
+            using (var urlStatsFile = File.CreateText(textBoxUrlAnalysisFilePath.Text))
             {
                 foreach (var urlStatsKvp in storyUrlsStats)
                 {
@@ -183,6 +183,9 @@ namespace HackerNewsDownloader
                 MessageBox.Show("{3}\n{0} items from {1} to {2}".FormatEx(count, Utils.FromUnixTime(minDateUnix).ToString("r"), Utils.FromUnixTime(maxDateUnix).ToString("r"), filePath));
             }
         }
-
+        private void buttonAnalyzePostTimes_Click(object sender, EventArgs e)
+        {
+            PostTimeAnalyzer.AnalyzePostTimes(textBoxStoriesFilePath.Text, textBoxPostTimeStatsFilePath.Text);
+        }
     }
 }
